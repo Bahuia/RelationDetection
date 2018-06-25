@@ -37,6 +37,10 @@ if __name__ == '__main__':
     relation_word2id_path = os.path.join(dictionary_dir, 'relation_word2id.json')
     json.dump(relation_word2id, open(relation_word2id_path, 'w', encoding='utf-8'), indent=2)
 
+    checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
+    if not os.path.exists(checkpoint_dir):
+        os.makedirs(checkpoint_dir)
+
     # Create the model, loss function and optimizer.
     model = Model(
         relation_embedding_dim=config.RELATION_EMBEDDING_DIM,
@@ -58,7 +62,6 @@ if __name__ == '__main__':
     for epoch in range(config.EPOCH_NUM):
         # random shuffle the training_data.
         random.shuffle(training_data)
-        step = 0
         accuracy = 0.0
         for qid, ques, pos, neg in training_data:
             # clean all gradients.
@@ -79,17 +82,9 @@ if __name__ == '__main__':
             loss.backward(retain_graph=True)
             optimizer.step()
 
-            step += 1
-            print(ques, pos, neg)
-            print(step, loss)
             accuracy += 1 if torch.gt(pos_score, neg_score) else 0
-            if step >= 2000:
-                break
+
         time_str = datetime.datetime.now().isoformat()
         print('{}: epoch {}, acc {:g}'.format(time_str, epoch, accuracy / len(training_data)))
-
-        checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
-        if not os.path.exists(checkpoint_dir):
-            os.makedirs(checkpoint_dir)
         torch.save(model, os.path.join(checkpoint_dir, 'model.pth'))
 
