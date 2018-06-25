@@ -99,7 +99,7 @@ class Model(nn.Module):
         # print('question rep', question_rep)
         # print('relation rep', relation_rep)
 
-        # Cosine Similarity
+        # Cosine Similarity.
         numerator = torch.sum(question_rep * relation_rep)
         denominator = torch.sqrt(torch.sum(question_rep * question_rep)) *  \
                       torch.sqrt(torch.sum(relation_rep * relation_rep))
@@ -110,5 +110,6 @@ class Model(nn.Module):
         positive_score = self.similarity(question, positive_relation, positive_word_level_relation)
         negative_score = self.similarity(question, negative_relation, positive_word_level_relation)
         return positive_score, negative_score
+
 
 
