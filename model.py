@@ -1,8 +1,6 @@
 import torch
 import torch.autograd as autograd
 import torch.nn as nn
-import torch.functional as functional
-import torch.optim as optim
 
 
 class LSTM(nn.Module):
@@ -52,7 +50,7 @@ class LSTM(nn.Module):
         :param word_sequence: input word sequence of the model
         :return: output of each time
         """
-        embeds = self.word_embeddings(word_sequence)
+        embeds = self.word_embeddings(word_sequence).cuda()
         lstm_out, self.hidden = self.lstm(embeds.view(len(embeds), 1, -1), self.hidden)
         return lstm_out
 

@@ -1,14 +1,6 @@
 import torch
-import numpy as np
-import torch.autograd as autograd
-import torch.nn as nn
-import torch.functional as functional
-import torch.optim as optim
-from model import Model
 from data_helpers import prepare_sequence
 from data_helpers import load_training_data
-from data_helpers import create_word2id
-import random
 import datetime
 import json
 import os
