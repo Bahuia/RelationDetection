@@ -6,8 +6,19 @@ import torch.optim as optim
 
 
 class LSTM(nn.Module):
+    """
+    LSTM model for sentence to vector representation.
+    """
 
     def __init__(self, embedding_dim, hidden_dim, vocab_size, num_layers, bidirectional):
+        """
+        Initialization of LSTM
+        :param embedding_dim: dimension of the word embedding.
+        :param hidden_dim: dimension of the hidden layer.
+        :param vocab_size: vocabulary size.
+        :param num_layers: number of the LSTM layers.
+        :param bidirectional: is LSTM bidirectional.
+        """
         super(LSTM, self).__init__()
         self.hidden_dim = hidden_dim
         self.num_layers = num_layers
@@ -47,9 +58,18 @@ class LSTM(nn.Module):
 
 
 class Model(nn.Module):
+    """
+    input: question, positive relation, negative relation.
+    output: two cosine similarities.
+    Model for compute the similarity of (question, positive relation) and (question, negative_relation).
+    """
 
     def __init__(self, relation_embedding_dim, relation_hidden_dim, relation_vocab_size,
                  question_embedding_dim, question_hidden_dim, question_vocab_size, LAMBDA=0.5):
+        """
+        Initialization of the model.
+        :param LAMBDA: the mini value that pos_sore bigger than neg_score.
+        """
         super(Model, self).__init__()
         self.LAMBDA = LAMBDA
 
@@ -71,33 +91,37 @@ class Model(nn.Module):
         )
 
     def similarity(self, question, relation_level_relation, word_level_relation):
+        """
+        Calculate the cosine similarity of the question and the relation.
+        :param question: question tensor.
+        :param relation_level_relation: relation-level relation tensor.
+        :param word_level_relation: word-level relation tensor.
+        :return: cos(question, relation-level relation), cos(question, word-level relation).
+        """
+        # Question lstm layer.
         self.question_lstm.hidden = self.question_lstm.init_hidden()
         question_lstm_out = self.question_lstm(question)
-
+        # Relation-level relation layer.
         self.relation_lstm.hidden = self.relation_lstm.init_hidden()
         relation_level_relation_lstm_out = self.relation_lstm(relation_level_relation).view(len(relation_level_relation), -1)
-
+        # Word-level relation layer.
         self.relation_lstm.hidden = self.relation_lstm.init_hidden()
         word_level_relation_lstm_out = self.relation_lstm(word_level_relation).view(len(word_level_relation), -1)
 
-        # Max-pooling question
+        # Max-pooling question.
         question_max_pooling = nn.MaxPool2d(
             kernel_size=(len(question_lstm_out), 1),
             stride=1
         )
         question_rep = question_max_pooling(question_lstm_out.view(1, len(question_lstm_out), -1)).view(-1)
 
-        # Max-pooling relation
-        relation_lstm_out = torch.cat(
-            [relation_level_relation_lstm_out, word_level_relation_lstm_out], 0)
+        # Max-pooling relation.
+        relation_lstm_out = torch.cat([relation_level_relation_lstm_out, word_level_relation_lstm_out], 0)
         relation_max_pooling = nn.MaxPool2d(
             kernel_size=(len(relation_lstm_out), 1),
             stride=1
         )
         relation_rep = relation_max_pooling(relation_lstm_out.view(1, len(relation_lstm_out), -1)).view(-1)
-
-        # print('question rep', question_rep)
-        # print('relation rep', relation_rep)
 
         # Cosine Similarity.
         numerator = torch.sum(question_rep * relation_rep)
@@ -107,6 +131,9 @@ class Model(nn.Module):
         return cosine
 
     def forward(self, question, positive_relation, positive_word_level_relation, negative_relation, negative_word_level_relation):
+        """
+        Calculate two cosine similarities.
+        """
         positive_score = self.similarity(question, positive_relation, positive_word_level_relation)
         negative_score = self.similarity(question, negative_relation, positive_word_level_relation)
         return positive_score, negative_score
