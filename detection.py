@@ -9,7 +9,7 @@ import os
 if __name__ == '__main__':
 
     test_data = load_training_data('./data/test.json')
-    model_path = os.path.abspath(os.path.join(os.path.curdir, 'runs', '1529897157'))
+    model_path = os.path.abspath(os.path.join(os.path.curdir, 'runs', '1529929654'))
     question_word2id_path = os.path.abspath(os.path.join(model_path, 'dictionary', 'question_word2id.json'))
     relation_word2id_path = os.path.abspath(os.path.join(model_path, 'dictionary', 'relation_word2id.json'))
     with open(question_word2id_path, 'r', encoding='utf-8') as fin:
