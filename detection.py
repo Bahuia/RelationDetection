@@ -9,7 +9,7 @@ import os
 if __name__ == '__main__':
 
     test_data = load_training_data('./data/test.json')
-    model_path = os.path.abspath(os.path.join(os.path.curdir, 'runs', '1529929654'))
+    model_path = os.path.abspath(os.path.join(os.path.curdir, 'runs', '1530106235'))
     question_word2id_path = os.path.abspath(os.path.join(model_path, 'dictionary', 'question_word2id.json'))
     relation_word2id_path = os.path.abspath(os.path.join(model_path, 'dictionary', 'relation_word2id.json'))
     with open(question_word2id_path, 'r', encoding='utf-8') as fin:
@@ -46,7 +46,8 @@ if __name__ == '__main__':
         pos_score, neg_score = model(question, positive_relation, positive_word_level_relation,
                              negative_relation, negative_word_level_relation)
         step += 1
-        #print(ques, pos, neg)
+        # print('step {}: ques: "{}" | pos: "{}" | wpos: "{}" | neg: "{}" | wneg: "{}"'.format(
+        #     step, ques, pos, pos.replace('_', ' '), neg, neg.replace('_', ' ')))
         if torch.ge(neg_score, pos_score):
             result[qid] = 0
 

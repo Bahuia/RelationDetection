@@ -133,7 +133,7 @@ class Model(nn.Module):
         Calculate two cosine similarities.
         """
         positive_score = self.similarity(question, positive_relation, positive_word_level_relation)
-        negative_score = self.similarity(question, negative_relation, positive_word_level_relation)
+        negative_score = self.similarity(question, negative_relation, negative_word_level_relation)
         return positive_score, negative_score
 
 

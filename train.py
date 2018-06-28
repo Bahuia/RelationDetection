@@ -63,6 +63,8 @@ if __name__ == '__main__':
         # random shuffle the training_data.
         random.shuffle(training_data)
         accuracy = 0.0
+        step = 0
+        last_time = datetime.datetime.now()
         for qid, ques, pos, neg in training_data:
             # clean all gradients.
             model.zero_grad()
@@ -79,8 +81,13 @@ if __name__ == '__main__':
             pos_score, neg_score = model(question, positive_relation, positive_word_level_relation,
                                  negative_relation, negative_word_level_relation)
             loss = loss_function(pos_score.view(1), neg_score.view(1), torch.ones(1).cuda())
-            loss.backward(retain_graph=True)
+            loss.backward()
             optimizer.step()
+            step += 1
+            if step % 1000 == 0:
+                now_time = datetime.datetime.now()
+                print(step, (now_time - last_time).seconds)
+                last_time = now_time
 
             accuracy += 1 if torch.gt(pos_score, neg_score) else 0
 
