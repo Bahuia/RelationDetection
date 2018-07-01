@@ -1,6 +1,7 @@
 import torch
 import torch.autograd as autograd
 import torch.nn as nn
+from torch.autograd import Variable
 
 
 class LSTM(nn.Module):
@@ -21,7 +22,6 @@ class LSTM(nn.Module):
         self.hidden_dim = hidden_dim
         self.num_layers = num_layers
         self.num_directions = 2 if bidirectional else 1
-        self.hidden = self.init_hidden()
 
         # Word Embedding Layer
         self.word_embeddings = nn.Embedding(
@@ -33,25 +33,22 @@ class LSTM(nn.Module):
             input_size=embedding_dim,
             hidden_size=hidden_dim,
             num_layers=num_layers,
-            bidirectional=bidirectional
+            bidirectional=bidirectional,
+            batch_first=True
         )
 
-    def init_hidden(self):
-        """
-        Initialization of the LSTM hidden layer.
-        :return: initialized hidden_vector and output_vector
-        """
-        return (autograd.Variable(torch.zeros(self.num_layers * self.num_directions, 1, self.hidden_dim)).cuda(),
-                autograd.Variable(torch.zeros(self.num_layers * self.num_directions, 1, self.hidden_dim)).cuda())
-
-    def forward(self, word_sequence):
+    def forward(self, batch):
         """
         Forward propagation of the model.
         :param word_sequence: input word sequence of the model
         :return: output of each time
         """
-        embeds = self.word_embeddings(word_sequence).cuda()
-        lstm_out, self.hidden = self.lstm(embeds.view(len(embeds), 1, -1), self.hidden)
+        batch_size = len(batch)
+        hidden = (Variable(torch.zeros(self.num_layers * self.num_directions, batch_size , self.hidden_dim)).cuda(),
+                Variable(torch.zeros(self.num_layers * self.num_directions, batch_size, self.hidden_dim)).cuda())
+        embeds = self.word_embeddings(batch)
+        # print('embeds', embeds.size())
+        lstm_out, hidden = self.lstm(embeds, hidden)
         return lstm_out
 
 
@@ -97,35 +94,43 @@ class Model(nn.Module):
         :return: cos(question, relation-level relation), cos(question, word-level relation).
         """
         # Question lstm layer.
-        self.question_lstm.hidden = self.question_lstm.init_hidden()
         question_lstm_out = self.question_lstm(question)
         # Relation-level relation layer.
-        self.relation_lstm.hidden = self.relation_lstm.init_hidden()
-        relation_level_relation_lstm_out = self.relation_lstm(relation_level_relation).view(len(relation_level_relation), -1)
+        relation_level_relation_lstm_out = self.relation_lstm(relation_level_relation)
         # Word-level relation layer.
-        self.relation_lstm.hidden = self.relation_lstm.init_hidden()
-        word_level_relation_lstm_out = self.relation_lstm(word_level_relation).view(len(word_level_relation), -1)
+        word_level_relation_lstm_out = self.relation_lstm(word_level_relation)
+        #
+        # print('question_lstm_out:', question_lstm_out.size())
+        # print('relation_level_lstm_out:', relation_level_relation_lstm_out.size())
+        # print('word_level_lstm_out:', word_level_relation_lstm_out.size())
+
 
         # Max-pooling question.
         question_max_pooling = nn.MaxPool2d(
-            kernel_size=(len(question_lstm_out), 1),
+            kernel_size=(question_lstm_out.size()[1], 1),
             stride=1
         )
-        question_rep = question_max_pooling(question_lstm_out.view(1, len(question_lstm_out), -1)).view(-1)
+        question_rep = question_max_pooling(question_lstm_out).view(len(question_lstm_out), -1)
 
         # Max-pooling relation.
-        relation_lstm_out = torch.cat([relation_level_relation_lstm_out, word_level_relation_lstm_out], 0)
+        relation_lstm_out = torch.cat([relation_level_relation_lstm_out, word_level_relation_lstm_out], 1)
         relation_max_pooling = nn.MaxPool2d(
-            kernel_size=(len(relation_lstm_out), 1),
+            kernel_size=(relation_lstm_out.size()[1], 1),
             stride=1
         )
-        relation_rep = relation_max_pooling(relation_lstm_out.view(1, len(relation_lstm_out), -1)).view(-1)
+        relation_rep = relation_max_pooling(relation_lstm_out).view(len(relation_lstm_out), -1)
+
+        # print('question_rep:', question_rep.size())
+        # print('relation_rep:', relation_rep.size())
 
         # Cosine Similarity.
-        numerator = torch.sum(question_rep * relation_rep)
-        denominator = torch.sqrt(torch.sum(question_rep * question_rep)) *  \
-                      torch.sqrt(torch.sum(relation_rep * relation_rep))
-        cosine = numerator / denominator
+        xx = torch.sum(torch.mul(question_rep, relation_rep), 1)
+        yy = torch.mul(torch.sqrt(torch.sum(torch.mul(question_rep, question_rep), 1)),
+                                torch.sqrt(torch.sum(torch.mul(relation_rep, relation_rep), 1)))
+        cosine = torch.div(xx, yy)
+        # print('xx:', xx.size())
+        # print('yy:', yy.size())
+        # print('cos:', cosine.size())
         return cosine
 
     def forward(self, question, positive_relation, positive_word_level_relation, negative_relation, negative_word_level_relation):
