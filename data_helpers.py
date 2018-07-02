@@ -1,6 +1,6 @@
 import json
 import torch
-import torch.autograd as autograd
+from torch.autograd import Variable
 
 
 def load_training_data(path):
@@ -48,4 +48,4 @@ def prepare_sequence(sequence, word2id):
         else:
             idxs.append(word2id[x])
     tensor = torch.LongTensor(idxs)
-    return tensor.cuda()
+    return Variable(tensor)

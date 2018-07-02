@@ -50,7 +50,7 @@ class LSTM(nn.Module):
         :param word_sequence: input word sequence of the model
         :return: output of each time
         """
-        embeds = self.word_embeddings(word_sequence).cuda()
+        embeds = self.word_embeddings(word_sequence)
         lstm_out, self.hidden = self.lstm(embeds.view(len(embeds), 1, -1), self.hidden)
         return lstm_out
 
@@ -134,7 +134,7 @@ class Model(nn.Module):
         """
         positive_score = self.similarity(question, positive_relation, positive_word_level_relation)
         negative_score = self.similarity(question, negative_relation, negative_word_level_relation)
-        return positive_score, negative_score
+        return positive_score.view(1), negative_score.view(1)
 
 
 
