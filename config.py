@@ -15,9 +15,9 @@ QUESTION_HIDDEN_DIM = 200
 RELATION_HIDDEN_DIM = 200
 
 # Number of the training epochs.
-EPOCH_NUM = 10
+EPOCH_NUM = 1000
 # Learning rate.
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.01
 # The mini value that positive score bigger than negative.
 MARGIN = 0.5
 
