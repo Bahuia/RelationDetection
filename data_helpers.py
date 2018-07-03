@@ -2,9 +2,10 @@ import json
 import torch
 from torch.autograd import Variable
 import numpy as np
+import os
 
 
-def load_training_data(path):
+def load_data(path):
     with open(path, 'r', encoding='utf-8') as fin:
         data = json.load(fin)
     qid, que, pos_rel, pos_rel_word, neg_rel, neg_rel_word = [], [], [], [], [], []
@@ -12,7 +13,8 @@ def load_training_data(path):
         question = s['Pattern']
         pos_relation = s['ChainSamples']['PositiveSample']
         for neg_relation in s['ChainSamples']['NegativeSamples']:
-            qid.append(int(s['QuestionId'][9 : len(s['QuestionId'])]))
+            pos = s['QuestionId'].find('-')
+            qid.append(int(s['QuestionId'][pos + 1 : len(s['QuestionId'])]))
             que.append(question)
             pos_rel.append(pos_relation)
             neg_rel.append(neg_relation)
@@ -45,7 +47,20 @@ def create_word2id(training_data):
     return question_word2id, relation_word2id
 
 
+def load_vocab(dict_dir):
+    que_word2id_path = os.path.abspath(os.path.join(dict_dir, 'question_word2id.json'))
+    rel_word2id_path = os.path.abspath(os.path.join(dict_dir, 'relation_word2id.json'))
+    with open(que_word2id_path, 'r', encoding='utf-8') as fin:
+        que_word2id = json.load(fin)
+    with open(rel_word2id_path, 'r', encoding='utf-8') as fin:
+        rel_word2id = json.load(fin)
+    return que_word2id, rel_word2id
+
+
 def prepare_sequence(data, max_length,  word2id):
+    """
+    Change word sequence to the id sequence.
+    """
     idx_batch = []
     for seq in data:
         idxs = np.zeros(max_length)
@@ -59,11 +74,10 @@ def prepare_sequence(data, max_length,  word2id):
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
     """
     Generate a batch iterator for a data set.
-    :params shuffle: shuffle data or not
     """
     data = np.array(data)
     data_size = len(data)
-    num_batches_per_epoch = int((len(data)-1)/batch_size) + 1   # number of batches at each epoch
+    num_batches_per_epoch = int((data_size-1)/batch_size) + 1   # number of batches at each epoch
     for epoch in range(num_epochs):
         # shuffle the data at each epoch
         if shuffle:
