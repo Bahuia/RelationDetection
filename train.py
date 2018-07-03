@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     batches_train = batch_iter(
         data=list(zip(que, pos_rel, neg_rel, pos_rel_word, neg_rel_word)),
-        batch_size=1024,
+        batch_size=2048,
         num_epochs=config.EPOCH_NUM,
     )
 

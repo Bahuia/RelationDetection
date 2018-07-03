@@ -36,7 +36,7 @@ if __name__ == '__main__':
     print(pos_rel_word.shape)
     print(neg_rel_word.shape)
 
-    model_path = os.path.abspath(os.path.join(os.path.curdir, 'runs', '1530461673'))
+    model_path = os.path.abspath(os.path.join(os.path.curdir, 'runs', '1530541749'))
     model = torch.load(os.path.join(model_path, 'checkpoints', 'model.pth'))
     model.cuda()
 
@@ -88,4 +88,4 @@ if __name__ == '__main__':
         accuracy += value
 
     time_str = datetime.datetime.now().isoformat()
-    print('{}: acc {:g}'.format(time_str, accuracy / len(result)))
+    print('{}: acc {:g}'.format(time_str, accuracy / 1639))

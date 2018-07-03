@@ -12,7 +12,7 @@ def load_training_data(path):
         question = s['Pattern']
         pos_relation = s['ChainSamples']['PositiveSample']
         for neg_relation in s['ChainSamples']['NegativeSamples']:
-            qid.append(int(s['QuestionId'][9 : len(s['QuestionId'])]))
+            qid.append(int(s['QuestionId'][8 : len(s['QuestionId'])]))
             que.append(question)
             pos_rel.append(pos_relation)
             neg_rel.append(neg_relation)
