@@ -35,8 +35,14 @@ DEV_BATCH_SIZE = 512
 TEST_BATCH_SIZE = 512
 
 DEV_EVERY = 100
-DEV_START_STEP = 1600
+DEV_START_STEP = 100
 
 PATIENCE = 10
 
 QUESTION_NUMBER = 1639
+
+USING_GRU = True
+BIDIRECTIONAL = True
+
+# layers number of RNN: (relation_num_layers, question_num_layers).
+NUM_LAYERS = (1, 1)

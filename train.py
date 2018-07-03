@@ -68,7 +68,8 @@ if __name__ == '__main__':
         relation_vocab_size=len(rel_word2id),
         question_embedding_dim=config.QUESTION_EMBEDDING_DIM,
         question_hidden_dim=config.QUESTION_HIDDEN_DIM,
-        question_vocab_size=len(que_word2id)
+        question_vocab_size=len(que_word2id),
+        using_gru=config.USING_GRU
     )
     # Shift model to GPU.
     model.cuda()
