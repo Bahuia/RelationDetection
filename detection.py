@@ -56,6 +56,7 @@ if __name__ == '__main__':
 
     # Test loop ...
     current_step = 0
+    model.eval()
     for batch in batches_test:
         qid, que_batch, pos_rel_batch, neg_rel_batch, pos_rel_word_batch, neg_rel_word_batch = zip(*batch)
         que_batch = torch.LongTensor(np.array(que_batch))
@@ -68,7 +69,6 @@ if __name__ == '__main__':
         # print(neg_rel_batch.size())
         # print(pos_rel_word_batch.size())
         # print(neg_rel_word_batch.size())
-        accuracy = 0.0
         pos_score, neg_score = model(
             Variable(que_batch.cuda()),
             Variable(pos_rel_batch.cuda()),
