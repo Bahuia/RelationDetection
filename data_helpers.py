@@ -1,8 +1,7 @@
-import json
-import torch
-from torch.autograd import Variable
-import numpy as np
 import os
+import json
+import numpy as np
+import csv
 
 
 def load_data(path):
@@ -89,3 +88,13 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
             start_index = batch_num * batch_size
             end_index = min((batch_num + 1) * batch_size, data_size)
             yield shuffled_data[start_index:end_index]
+
+
+def save_results(path, results):
+    with open(path, 'w', encoding='utf-8') as fout:
+        writer = csv.writer(fout, dialect='excel')
+        head = ['QuestionId', 'Question', 'Relation', 'PredictRelation', 'Status']
+        writer.writerow(head)
+        for qid, result in results.items():
+            row = ['WebQTest-' + str(qid), result[head[1]], result[head[2]], result[head[3]], result[head[4]]]
+            writer.writerow(row)

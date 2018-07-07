@@ -1,0 +1,1603 @@
+QuestionId,Question,Relation,PredictRelation,Status
+WebQTest-0,what does <e> people speak,languages_spoken,languages_spoken,True
+WebQTest-3,who plays <e> in coronation street,regular_cast actor,regular_cast actor,True
+WebQTest-6,where is <e> from,place_of_birth,place_of_birth,True
+WebQTest-7,where was <e> from,place_of_birth,place_of_birth,True
+WebQTest-8,what else did <e> invent,inventions,inventions,True
+WebQTest-9,who was <e> married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-12,who is governor of <e> 2011,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-13,who was vice president after <e> died,vice_president,vice_president,True
+WebQTest-14,where is the <e> located,containedby,containedby,True
+WebQTest-16,what countries are part of the <e>,administrative_children,administrative_children,True
+WebQTest-19,what is my timezone in <e>,time_zones,time_zones,True
+WebQTest-20,what did st <e> do,profession,profession,True
+WebQTest-21,who is <e> dad,parents,parents,True
+WebQTest-22,what kind government does <e> have,form_of_government,form_of_government,True
+WebQTest-23,what town was <e> assassinated in,place_of_death,place_of_birth,False
+WebQTest-24,where did <e> died,place_of_death,place_of_death,True
+WebQTest-26,what to do today in <e> with kids,tourist_attractions,tourist_attractions,True
+WebQTest-28,what electorate does <e> represent,government_positions_held district_represented,profession,False
+WebQTest-31,where did <e> started playing tennis,year_turned_pro,year_turned_pro,True
+WebQTest-32,what is <e> dollar called,currency_code,countries_used,False
+WebQTest-33,what timezone is <e>,time_zones,time_zones,True
+WebQTest-34,who did <e> sign with,teams team,teams team,True
+WebQTest-35,what county is <e> in,county,county,True
+WebQTest-36,what highschool did <e> go to,education institution,education institution,True
+WebQTest-37,what timezone is <e> in,time_zones,time_zones,True
+WebQTest-39,who is <e> 's wife,spouse_s spouse,spouse_s spouse,True
+WebQTest-41,where is the <e> located on a world map,containedby,containedby,True
+WebQTest-42,what are the songs that <e> wrote,compositions,compositions,True
+WebQTest-43,what did <e> do,profession,profession,True
+WebQTest-44,what is the state flower of <e>,official_symbols symbol,official_symbols symbol,True
+WebQTest-45,where was <e> born and raised,place_of_birth,place_of_birth,True
+WebQTest-46,what year did president <e> take office,government_positions_held from,government_positions_held from,True
+WebQTest-47,where <e> was born,place_of_birth,place_of_birth,True
+WebQTest-48,where are <e> based,headquarters citytown,headquarters citytown,True
+WebQTest-49,what did the <e> people believe in,beliefs,is_part_of,False
+WebQTest-51,who will play <e> in the film,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-52,what did <e> died of,cause_of_death,cause_of_death,True
+WebQTest-54,what country did <e> control,government_positions_held jurisdiction_of_office,nationality,False
+WebQTest-55,who is <e>,profession,profession,True
+WebQTest-56,what county is <e>,county,county,True
+WebQTest-58,who did <e> first play for,teams team,teams team,True
+WebQTest-59,when did <e> open,date_of_first_performance,date_of_first_performance,True
+WebQTest-60,where did <e> die,place_of_death,place_of_death,True
+WebQTest-61,what are the religions practiced in <e>,religions religion,religions religion,True
+WebQTest-62,what was <e> killed with,cause_of_death,cause_of_death,True
+WebQTest-63,who was vp for <e>,vice_president,profession,False
+WebQTest-64,what other books did <e> write,book_editions_published,works_written,False
+WebQTest-65,who was the first dictator of the <e>,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-66,what is the currency of <e> called,currency_used,currency_used,True
+WebQTest-67,what kind of cancer did <e> have,cause_of_death,cause_of_death,True
+WebQTest-68,who plays the voice of kitt in <e>,regular_cast actor,regular_cast actor,True
+WebQTest-69,what county is <e> in,county,county,True
+WebQTest-71,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-72,what battles did <e> fight in,military_commands military_conflict,military_commands military_conflict,True
+WebQTest-73,what language do the <e> tribe speak,languages_spoken,languages_spoken,True
+WebQTest-74,who did <e> get married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-75,what disease did <e> died from,cause_of_death,cause_of_death,True
+WebQTest-76,what works of art did <e> produce,artworks,art_forms,False
+WebQTest-77,what capital of <e>,capital,capital,True
+WebQTest-78,what type of cancer did <e> have,cause_of_death,cause_of_death,True
+WebQTest-79,what country did <e> come from,nationality,nationality,True
+WebQTest-80,what county is <e> in,county,county,True
+WebQTest-82,what did <e> do,profession,profession,True
+WebQTest-83,which countries speak <e> officially,countries_spoken_in,countries_spoken_in,True
+WebQTest-84,what type of music did <e> sing,genre,genre,True
+WebQTest-85,who are the <e> representatives,representatives office_holder,notable_for notable_object,False
+WebQTest-86,which country does <e> belong to,country,country,True
+WebQTest-87,what the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-88,who is <e> mom name,parents,parents,True
+WebQTest-89,what do you <e> chinese writing system,writing_system,countries_spoken_in,False
+WebQTest-90,who played on <e>,regular_cast actor,regular_cast actor,True
+WebQTest-91,what is the name of the <e> newspaper,newspapers,newspapers,True
+WebQTest-93,what continent does <e> belong to,continent,continent,True
+WebQTest-94,what did <e> died of,cause_of_death,cause_of_death,True
+WebQTest-95,what was the title of the book <e> wrote,works_written,works_written,True
+WebQTest-96,where did <e> die,place_of_death,place_of_death,True
+WebQTest-97,what songs does <e> sing,track,track,True
+WebQTest-98,who was vice president when <e> was president,vice_president,vice_president,True
+WebQTest-99,what is <e> language called,official_language,official_language,True
+WebQTest-100,what language is spoken in <e> today,languages_spoken,languages_spoken,True
+WebQTest-102,who played <e> batgirl,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-103,what basketball teams has <e> played for,teams team,teams team,True
+WebQTest-104,where is <e> from,place_of_birth,place_of_birth,True
+WebQTest-105,what language do people from <e> speak,languages_spoken,languages_spoken,True
+WebQTest-106,who did <e> play in the social network,starring character,starring character,True
+WebQTest-107,what was <e> role in the declaration of independence,profession,party party,False
+WebQTest-108,what was the book written by <e>,works_written,works_written,True
+WebQTest-109,who did <e> play college football for,teams team,teams team,True
+WebQTest-110,who does <e> play football for,teams team,teams team,True
+WebQTest-111,where is the <e> located,containedby,containedby,True
+WebQTest-112,what was <e>,profession,profession,True
+WebQTest-114,who did the voice of <e> in episode 3,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-118,who fought in <e> war 1991,combatants combatants,commanders military_commander,False
+WebQTest-119,who plays <e> in suite life on deck,regular_cast actor,regular_cast actor,True
+WebQTest-121,what team did <e> play for in 2011,teams team,teams team,True
+WebQTest-122,where did <e> come from,place_of_birth,place_of_birth,True
+WebQTest-123,what all does <e> now do,products consumer_product,phone_number product_or_service,False
+WebQTest-124,what language does <e> people speak,official_language,languages_spoken,False
+WebQTest-125,what are <e> sons names,children,children,True
+WebQTest-126,who wrote the jana gana <e>,composer,composer,True
+WebQTest-127,what type of cancer did <e> die of,cause_of_death,cause_of_death,True
+WebQTest-128,who plays <e>,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-129,what was <e>,profession,profession,True
+WebQTest-131,who inspired <e>,influenced_by,influenced_by,True
+WebQTest-132,who is <e> wife,spouse_s spouse,spouse_s spouse,True
+WebQTest-133,where did <e> grow up,place_of_birth,place_of_birth,True
+WebQTest-134,what type of books did <e> wrote,profession,works_written,False
+WebQTest-138,what are the four main languages spoken in <e>,languages_spoken,official_language,False
+WebQTest-139,where is the <e> headquarters located,headquarters citytown,headquarters citytown,True
+WebQTest-141,who is <e> 's father in the hobbit,parents,parents,True
+WebQTest-142,who developed the <e> ip reference model,innovator,inventor,False
+WebQTest-145,what college did <e> go to,education institution,education institution,True
+WebQTest-146,what team does <e> own,teams,administrative_children,False
+WebQTest-147,who is the state governor of <e>,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-149,what do <e> people speak,official_language,languages_spoken,False
+WebQTest-150,what language does <e> speak,official_language,languages_spoken,False
+WebQTest-153,what are the sights to see in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-154,what instruments did <e> play,instruments_played,instruments_played,True
+WebQTest-155,what year was <e> elected,government_positions_held from,election_campaigns,False
+WebQTest-156,what time zone am i in <e>,time_zones,time_zones,True
+WebQTest-157,where is <e> located,containedby,containedby,True
+WebQTest-159,what time in <e>,time_zones,time_zones,True
+WebQTest-160,where did <e> conduct his research,employment_history company,place_of_birth,False
+WebQTest-161,what university did <e> attend,education institution,education institution,True
+WebQTest-162,what countries does <e> share borders with,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-163,what year did the <e> win the superbowl,championships,championships,True
+WebQTest-164,what did <e> become famous for,profession,profession,True
+WebQTest-165,who plays <e>,appeared_in_tv_episodes actor,appeared_in_tv_program actor,False
+WebQTest-166,what was <e> education,education institution,education institution,True
+WebQTest-167,where did <e> get its name from,named_after,named_after,True
+WebQTest-168,what document did <e> write,works_written,profession,False
+WebQTest-169,what are the three official languages of <e>,official_language,official_language,True
+WebQTest-170,who played <e> in lord of the rings,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-171,what airport do you fly into to get to <e>,nearby_airports,nearby_airports,True
+WebQTest-172,what do you call members of the <e>,members basic_title,members office_holder,False
+WebQTest-173,what countries are part of the <e>,contains,contains,True
+WebQTest-174,what team does <e> play for,teams team,teams team,True
+WebQTest-175,where did <e> attend college,education institution,education institution,True
+WebQTest-176,who is <e> father,parents,parents,True
+WebQTest-177,where was <e> buried,place_of_burial,place_of_burial,True
+WebQTest-179,what artistic movement did <e> belong to,associated_periods_or_movements,profession,False
+WebQTest-180,where the <e> ends,mouth,containedby,False
+WebQTest-181,what type of currency do they use in <e>,currency_used,currency_used,True
+WebQTest-182,who is <e> 's husband,spouse_s spouse,spouse_s spouse,True
+WebQTest-184,what state does <e> live in,places_lived location,places_lived location,True
+WebQTest-185,what type of government does <e> use,form_of_government,form_of_government,True
+WebQTest-186,who rules <e> right now,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-187,what did <e> study,education major_field_of_study,education major_field_of_study,True
+WebQTest-188,where did <e> go to school,education institution,education institution,True
+WebQTest-189,what region of the world is <e> associated with,containedby,containedby,True
+WebQTest-190,what did dr. seuss do,profession,profession,True
+WebQTest-191,where did drew brees go to college <e>,education institution,education institution,True
+WebQTest-193,what school did <e> go to,education institution,education institution,True
+WebQTest-194,where did the iroquois <e> come from,geographic_distribution,geographic_distribution,True
+WebQTest-195,what kind of guitar did <e> use,guitars_played,guitars_played,True
+WebQTest-196,what language do <e> people speak,languages_spoken,languages_spoken,True
+WebQTest-197,what places make up <e>,contains,contains,True
+WebQTest-199,what type of government does <e> have now,form_of_government,form_of_government,True
+WebQTest-200,where was the <e> war location,locations,locations,True
+WebQTest-201,who did <e> select as his vice president when he became president,vice_president,vice_president,True
+WebQTest-202,what is the currency used in <e>,currency_used,currency_used,True
+WebQTest-204,what is the capital of modern <e>,capital,capital,True
+WebQTest-205,what school did <e> go to,education institution,education institution,True
+WebQTest-206,what position does <e> play,position_s,position_s,True
+WebQTest-207,where is <e>,headquarters state_province_region,containedby,False
+WebQTest-209,where is <e> in world map,containedby,containedby,True
+WebQTest-210,where is <e> from,place_of_birth,place_of_birth,True
+WebQTest-211,what countries are near <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-212,which states does the <e> run through,partially_containedby,partially_containedby,True
+WebQTest-213,who did <e> date,sexual_relationships celebrity,dated participant,False
+WebQTest-214,which continents were part of the <e>,partially_contained_by partially_contained_by,contains,False
+WebQTest-215,where was <e> born,place_of_birth,place_of_birth,True
+WebQTest-216,where are the <e> located on a map,containedby,containedby,True
+WebQTest-217,what type of government does the <e> follow,form_of_government,form_of_government,True
+WebQTest-218,in which continent is <e>,continent,continent,True
+WebQTest-220,what language <e> people speak,official_language,languages_spoken,False
+WebQTest-221,who does <e> play for,teams team,teams team,True
+WebQTest-222,where is the <e> on world map,continent,containedby,False
+WebQTest-224,where did <e> go to college,education institution,education institution,True
+WebQTest-225,what state is mount st. helens in,containedby,contains,False
+WebQTest-226,who is <e>,profession,profession,True
+WebQTest-227,where were <e> indians located,geographic_distribution,geographic_distribution,True
+WebQTest-231,when did florida marlins join <e>,team_stats season,championships,False
+WebQTest-232,what countries have <e> as the national language,countries_spoken_in,countries_spoken_in,True
+WebQTest-233,what to see in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-234,what countries does the <e> go through,containedby,containedby,True
+WebQTest-235,what is <e> famous for,profession,profession,True
+WebQTest-237,what did <e> do,profession,profession,True
+WebQTest-239,where do <e> bulldogs originate from,place_of_origin,breed_of,False
+WebQTest-240,what colleges did <e> teach at,employment_history company,places_lived location,False
+WebQTest-241,who plays the voice of brian on <e>,regular_cast actor,regular_cast actor,True
+WebQTest-243,where did <e> live as a child,place_of_birth,places_lived location,False
+WebQTest-245,what year was the first <e> held,date_of_first_occurance,date_of_first_occurance,True
+WebQTest-246,what was <e> inventions,inventions,inventions,True
+WebQTest-247,where did <e> people come from,geographic_distribution,geographic_distribution,True
+WebQTest-248,what state <e> belong to,state,state,True
+WebQTest-249,what was the cause of death for <e>,cause_of_death,cause_of_death,True
+WebQTest-250,what type of government does <e> follow,form_of_government,form_of_government,True
+WebQTest-251,what type of currency do they use in <e>,currency_used,currency_used,True
+WebQTest-252,where was <e> educated,education institution,education institution,True
+WebQTest-253,what countries included in the <e>,administrative_children,administrative_children,True
+WebQTest-254,what countries in the <e> speak chinese,countries_spoken_in,countries_spoken_in,True
+WebQTest-255,where <e> went to school,education institution,education institution,True
+WebQTest-256,what is the primary language of <e>,official_language,official_language,True
+WebQTest-257,who was the <e> leader during world war ii,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-258,which of the following does <e> export the most,major_exports industry,major_exports industry,True
+WebQTest-260,where was <e>,containedby,containedby,True
+WebQTest-261,what is <e> known for,profession,profession,True
+WebQTest-262,what tv shows did <e> play in,starring_roles series,starring_roles series,True
+WebQTest-264,what does <e> use for currency,currency_used,currency_used,True
+WebQTest-265,which airport to fly into <e>,how_to_get_here transport_terminus,how_to_get_here transport_terminus,True
+WebQTest-266,what is there to do for fun in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-267,where was <e> raised,place_of_birth,place_of_birth,True
+WebQTest-268,what year was <e> rookie season,awards season,drafted draft,False
+WebQTest-269,where does <e> start,origin,origin,True
+WebQTest-270,what kind of monarchy does <e> have,form_of_government,form_of_government,True
+WebQTest-271,where did <e> 's parents come from,place_of_birth,place_of_birth,True
+WebQTest-273,when did <e> return to the nba,sports_played_professionally career_start,awards season,False
+WebQTest-276,where was <e> located,containedby,containedby,True
+WebQTest-277,who was <e> 's husband,spouse_s spouse,spouse_s spouse,True
+WebQTest-278,who 's dating <e>,sexual_relationships celebrity,sexual_relationships celebrity,True
+WebQTest-279,what county is <e> in,containedby,containedby,True
+WebQTest-281,what type of sports do <e> play,teams,teams,True
+WebQTest-282,which countries share a border with <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-284,where did the <e> language originate from,language_family,parent,False
+WebQTest-286,what school did <e> go to,education institution,education institution,True
+WebQTest-287,what movies has <e> been in,film film,film film,True
+WebQTest-289,when do <e> war ii end,end_date,end_date,True
+WebQTest-291,where did <e> graduate,education institution,education institution,True
+WebQTest-294,who was <e>,profession,profession,True
+WebQTest-295,what type of government does <e> have now,form_of_government,form_of_government,True
+WebQTest-296,what kind of government does <e> have today,form_of_government,form_of_government,True
+WebQTest-297,what time zone is <e>,time_zones,time_zones,True
+WebQTest-298,what year did the <e> go to the world series,championships,championships,True
+WebQTest-300,who is sir <e>,profession,spouse_s spouse,False
+WebQTest-301,what were <e> 's achievements,profession,profession,True
+WebQTest-302,what are the official colors of the <e>,colors,colors,True
+WebQTest-303,where did <e> go to college,education institution,education institution,True
+WebQTest-304,what is <e> children names,children,children,True
+WebQTest-305,where does <e> live,places_lived location,places_lived location,True
+WebQTest-306,who is the head coach of <e>,coaches coach,founders,False
+WebQTest-308,who did <e> get married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-310,what kind of money should i take to <e>,currency_used,currency_used,True
+WebQTest-311,where is the <e> headquarters,headquarters citytown,headquarters citytown,True
+WebQTest-312,who plays <e> in star trek,appeared_in_tv_program actor,portrayed_in_films actor,False
+WebQTest-313,who does <e> play for 2012,teams team,teams team,True
+WebQTest-314,what kind of government is <e>,form_of_government,form_of_government,True
+WebQTest-315,where was country singer <e> born,place_of_birth,place_of_birth,True
+WebQTest-316,what did <e> become famous for,profession,profession,True
+WebQTest-317,where does <e> import from,places_imported_from imported_from,places_imported_from imported_from,True
+WebQTest-318,what is the money of <e> called,currency_used,currency_used,True
+WebQTest-321,what do people in <e> speak,languages_spoken,languages_spoken,True
+WebQTest-322,what has <e> acted in,film film,film film,True
+WebQTest-323,what movies did <e> director,film,film film,False
+WebQTest-326,what did <e> die from,cause_of_death,cause_of_death,True
+WebQTest-327,what two continents is <e> on,partially_containedby,partially_containedby,True
+WebQTest-328,where did <e> go to college,education institution,education institution,True
+WebQTest-329,what type of government was formed when <e> unified,form_of_government,form_of_government,True
+WebQTest-331,where was the <e> built,containedby,containedby,True
+WebQTest-333,what movies did <e> star in,film film,film film,True
+WebQTest-334,who did <e> have affairs with,sexual_relationships celebrity,spouse_s spouse,False
+WebQTest-335,what type of money to take to <e>,currency_used,currency_used,True
+WebQTest-336,what currency should you take to <e>,currency_used,currency_used,True
+WebQTest-337,who is <e> for kids,profession,profession,True
+WebQTest-338,what do they call money in <e>,currency_used,currency_used,True
+WebQTest-339,what nationality is <e>,nationality,nationality,True
+WebQTest-340,who is <e> son,children,children,True
+WebQTest-341,what countries share borders with <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-342,what countries have <e> as their official language,countries_spoken_in,countries_spoken_in,True
+WebQTest-343,what international organizations is <e> part of,member_of organization,containedby,False
+WebQTest-344,what county is <e> in,county,county,True
+WebQTest-346,who does <e> play in the sixth sense,film character,film character,True
+WebQTest-347,what did baron de <e> influence,influenced,profession,False
+WebQTest-349,who did <e> play for,player_statistics team,teams team,False
+WebQTest-351,who owns the <e>,owner,owner,True
+WebQTest-352,what did <e> design,structures_designed,profession,False
+WebQTest-354,what art movement did <e> belong to,associated_periods_or_movements,associated_periods_or_movements,True
+WebQTest-356,what airport is near <e>,nearby_airports,nearby_airports,True
+WebQTest-359,what team does <e> play for,salary team,teams team,False
+WebQTest-360,where did <e> live,place_of_birth,place_of_birth,True
+WebQTest-361,what to do and see in <e> austria,tourist_attractions,tourist_attractions,True
+WebQTest-362,when did conflict start in <e>,events,contains,False
+WebQTest-365,what is there to do in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-366,what language do <e> speak,languages_spoken,languages_spoken,True
+WebQTest-367,what makes <e> famous,profession,profession,True
+WebQTest-370,what language do people speak in the <e>,languages_spoken,languages_spoken,True
+WebQTest-371,what are the major languages spoken in <e>,official_language,official_language,True
+WebQTest-374,what type of artist is <e>,art_forms,art_forms,True
+WebQTest-375,what was the first book <e> wrote,works_written,works_written,True
+WebQTest-376,what books did <e> wrote,book_editions_published,works_written,False
+WebQTest-377,what school did <e> attend,education institution,education institution,True
+WebQTest-379,what year does <e> die,date_of_death,date_of_death,True
+WebQTest-380,where is <e> volcano,containedby,containedby,True
+WebQTest-381,what shows are shot in <e>,tv_shows_filmed_here,tv_shows_filmed_here,True
+WebQTest-382,what book did <e> write,book_editions_published,works_written,False
+WebQTest-383,what language do <e> people write in,writing_system,countries_spoken_in,False
+WebQTest-384,what was <e> famous for,profession,profession,True
+WebQTest-385,when did <e> died,date_of_death,date_of_death,True
+WebQTest-386,how deep is <e> oakland,depth,depth,True
+WebQTest-388,what are the important holidays of <e>,holidays,holidays,True
+WebQTest-389,what type of music did <e> play,genre,genre,True
+WebQTest-390,when was the last time the <e> were in the stanley cup finals,instances,instances,True
+WebQTest-392,what team is <e> on 2010,teams team,teams team,True
+WebQTest-393,what are the two official languages of <e>,official_language,official_language,True
+WebQTest-395,what state is the <e> from,location,location,True
+WebQTest-396,what college did <e> go to,education institution,education institution,True
+WebQTest-397,what are the school colors for <e>,colors,colors,True
+WebQTest-398,where is the <e> located,containedby,containedby,True
+WebQTest-399,what disease does <e> have,condition,condition,True
+WebQTest-400,what was the capital city of the <e>,capital,capital,True
+WebQTest-401,who plays <e>,starring actor,starring actor,True
+WebQTest-402,what does <e> play in slipknot,membership role,film film,False
+WebQTest-403,what kind of language does <e> speak,official_language,languages_spoken,False
+WebQTest-404,what was <e> first team,player_statistics team,teams team,False
+WebQTest-405,who fought the <e>,commanders military_combatant,commanders,False
+WebQTest-406,who is the coach of the <e>,current_coaches baseball_coach,current_manager,False
+WebQTest-408,who was the first president of the <e>,founders,founders,True
+WebQTest-409,where did <e> grow up,place_of_birth,place_of_birth,True
+WebQTest-410,what are the major cities in <e>,capital,capital,True
+WebQTest-414,who does <e> play for 2011,teams team,teams team,True
+WebQTest-415,what movies did <e> star in,film film,film film,True
+WebQTest-416,what form of currency does <e> have,currency_used,currency_used,True
+WebQTest-417,who plays <e>,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-418,what league are the <e> in,league league,location,False
+WebQTest-419,what country did <e> represent,nationality,nationality,True
+WebQTest-420,where is <e> located,containedby,containedby,True
+WebQTest-421,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-422,what happened in <e> in the 90s,events,events,True
+WebQTest-423,when 's the last time the <e> won the superbowl,championships,championships,True
+WebQTest-425,where <e> is spoken,main_country,countries_spoken_in,False
+WebQTest-426,where is <e> located,containedby,containedby,True
+WebQTest-427,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-428,what states make up the <e> us,contains,adjoin_s adjoins,False
+WebQTest-430,what instruments does <e> use,membership role,track_contributions role,False
+WebQTest-431,what language does <e> speak,languages_spoken,languages_spoken,True
+WebQTest-432,who did <e> married,spouse_s spouse,spouse_s spouse,True
+WebQTest-433,who has played <e>,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-434,where does the <e> start,origin,origin,True
+WebQTest-436,what is the <e> time,time_zones,time_zones,True
+WebQTest-437,where did they find <e> 's body,place_of_death,place_of_birth,False
+WebQTest-438,what university did <e> graduated from,education institution,education institution,True
+WebQTest-439,where is the time zone line in <e>,time_zones,time_zones,True
+WebQTest-440,where is <e> from,place_of_birth,place_of_birth,True
+WebQTest-441,what killed <e>,cause_of_death,cause_of_death,True
+WebQTest-442,what industry does <e> operate in,industry,members,False
+WebQTest-443,what county is <e> in,county,county,True
+WebQTest-446,what music period did <e> live in,genre,genre,True
+WebQTest-447,what did <e> wrote,book_editions_published,works_written,False
+WebQTest-448,what type of government system does <e> have,form_of_government,form_of_government,True
+WebQTest-449,what did <e> wrote,works_written,works_written,True
+WebQTest-450,what is the national flower of <e>,official_symbols symbol,official_symbols symbol,True
+WebQTest-451,what did <e> accomplish,notable_types,area_of_activism,False
+WebQTest-453,what languages do they speak in <e>,official_language,languages_spoken,False
+WebQTest-454,where did <e> come from,place_of_birth,place_of_birth,True
+WebQTest-455,when did <e> get drafted,drafted draft,drafted draft,True
+WebQTest-456,what part did <e> play in star trek,film character,film character,True
+WebQTest-459,where did <e> kill himself,place_of_death,place_of_birth,False
+WebQTest-461,where did <e> go to school,education institution,education institution,True
+WebQTest-462,what time is it in <e> houston right now,time_zones,time_zones,True
+WebQTest-463,who is <e> in star wars,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-464,what is the political structure of <e>,form_of_government,form_of_government,True
+WebQTest-465,what is <e> airport,how_to_get_here transport_terminus,nearby_airports,False
+WebQTest-466,what language <e> speak,languages_spoken,languages_spoken,True
+WebQTest-467,who played <e> in episode 2,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-468,where did <e> come from,place_of_birth,place_of_birth,True
+WebQTest-469,what currency is used in <e>,currency_used,currency_used,True
+WebQTest-470,where does the <e> originate,origin,containedby,False
+WebQTest-472,what team did <e> play for in 2003,teams team,teams team,True
+WebQTest-473,where does <e> live 2011,places_lived location,places_lived location,True
+WebQTest-474,who played <e> in twilight,starring actor,starring actor,True
+WebQTest-477,which airport to fly into in <e>,nearby_airports,nearby_airports,True
+WebQTest-479,what team did <e> play for in college,drafted school,teams team,False
+WebQTest-480,where does name <e> come from,named_after,named_after,True
+WebQTest-481,what kind of money do they use in <e>,currency_used,currency_used,True
+WebQTest-484,what language does <e> use,languages_spoken,languages_spoken,True
+WebQTest-487,who did <e> mary,spouse_s spouse,spouse_s spouse,True
+WebQTest-488,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-489,who plays <e> in one for the money,starring actor,starring actor,True
+WebQTest-490,what did the ancient <e> speak,official_language,official_language,True
+WebQTest-491,what does <e> sing,track,track,True
+WebQTest-492,where was st. lucy born,place_of_birth,place_of_birth,True
+WebQTest-493,what type of government does <e> have,form_of_government,form_of_government,True
+WebQTest-497,who was the father of <e>,parents,parents,True
+WebQTest-500,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-501,what has <e> been in,film film,film film,True
+WebQTest-502,where did <e> attack,attack_s attack_event,members,False
+WebQTest-503,what language is spoken in <e>,languages_spoken,official_language,False
+WebQTest-504,who was <e> in acts chapter 8,representations_in_fiction,representations_in_fiction,True
+WebQTest-506,what the time zone in <e>,time_zones,time_zones,True
+WebQTest-508,what is the best currency to take to <e>,currency_used,currency_used,True
+WebQTest-509,what system of government is practiced in <e>,form_of_government,form_of_government,True
+WebQTest-512,who were <e>,profession,profession,True
+WebQTest-513,what language do most <e> speak,languages_spoken,languages_spoken,True
+WebQTest-514,where is <e> situated,containedby,containedby,True
+WebQTest-515,where was <e> 's house,places_lived location,place_of_birth,False
+WebQTest-516,what is the government system of <e>,form_of_government,form_of_government,True
+WebQTest-517,what do people speak in <e>,official_language,languages_spoken,False
+WebQTest-518,what type of money do they use in <e>,currency_used,currency_used,True
+WebQTest-519,what timezone is <e>,time_zones,time_zones,True
+WebQTest-521,who was <e>,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-522,where did <e> die,place_of_death,place_of_death,True
+WebQTest-523,what is the largest nation in <e>,countries_within,contains,False
+WebQTest-524,where was the first <e> fought,locations,locations,True
+WebQTest-525,who are the senators of <e> 2013,representatives office_holder,representatives office_holder,True
+WebQTest-526,what band was <e> in,membership group,membership group,True
+WebQTest-527,what country borders <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-528,what was <e> most known for,notable_for object,profession,False
+WebQTest-529,where did <e> go to school,education institution,education institution,True
+WebQTest-530,where does <e> come from,place_of_birth,place_of_birth,True
+WebQTest-531,what style of music does <e> perform,genre,genre,True
+WebQTest-532,what does <e> play,sports_played_professionally sport,film film,False
+WebQTest-533,what does <e> do,profession,profession,True
+WebQTest-534,what is the <e> mascot,team_mascot,team_mascot,True
+WebQTest-535,what is the second biggest state in the <e>,contains,contains,True
+WebQTest-537,what has <e> been in,film film,film film,True
+WebQTest-538,what are all the movies <e> has been in,film film,film film,True
+WebQTest-540,what college did <e>,education institution,education institution,True
+WebQTest-542,where did <e> die,place_of_death,place_of_death,True
+WebQTest-543,what college did <e> go to,education institution,education institution,True
+WebQTest-545,what kind of cancer did <e> die of,cause_of_death,cause_of_death,True
+WebQTest-546,who is <e> 's wife,spouse_s spouse,spouse_s spouse,True
+WebQTest-547,what money do i use in <e>,currency_used,currency_used,True
+WebQTest-548,what guitar did <e> play,guitars_played,guitars_played,True
+WebQTest-549,what are the official languages of the <e>,official_language_s,members,False
+WebQTest-550,what is <e> radio show,content,starring_roles series,False
+WebQTest-552,what language do most <e> speak,official_language,official_language,True
+WebQTest-554,what money do they use in <e>,currency_used,currency_used,True
+WebQTest-555,what did <e> go to rehab for,substance_abuse_problems substance,substance_abuse substance,False
+WebQTest-556,when is saint <e> celebrated,day_of_year,day_of_year,True
+WebQTest-557,what government did the <e> have,form_of_government,form_of_government,True
+WebQTest-559,what instrument did <e> play,instruments_played,instruments_played,True
+WebQTest-560,who voiced <e>,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-561,when was <e> president,inauguration,election_campaigns,False
+WebQTest-562,where are the <e> playing,arena_stadium,location,False
+WebQTest-564,what is <e>,street_address citytown,containedby,False
+WebQTest-567,what is the zip code for <e> az,postal_codes,postal_codes,True
+WebQTest-568,when did michael vick start playing for the <e>,teams from,teams from,True
+WebQTest-570,what is <e> famous for,profession,profession,True
+WebQTest-572,where did <e> die,place_of_death,place_of_death,True
+WebQTest-573,where did <e> live,places_lived location,places_lived location,True
+WebQTest-575,who is <e> state senator,representatives office_holder,representatives office_holder,True
+WebQTest-576,what are the 7 countries that are part of <e>,contains,contains,True
+WebQTest-577,where did <e> go to college,education institution,education institution,True
+WebQTest-578,who was <e> drafted by,drafted team,drafted team,True
+WebQTest-579,where are the <e> hornets moving to,location,location,True
+WebQTest-580,what language does <e> people speak,languages_spoken,languages_spoken,True
+WebQTest-581,where was <e> executed,place_of_death,place_of_birth,False
+WebQTest-582,what did <e> do to become famous,profession,profession,True
+WebQTest-583,what school did <e> received his doctorate degree from,education institution,education institution,True
+WebQTest-584,where <e> come from,place_of_birth,place_of_birth,True
+WebQTest-585,what did <e> rule,kingdom,kingdom,True
+WebQTest-586,what type of cancer did <e> have,cause_of_death,cause_of_death,True
+WebQTest-588,what wars did <e> served in,participated_in_conflicts,military_commands military_conflict,False
+WebQTest-589,what <e> language called,official_language,official_language,True
+WebQTest-590,who is in charge of <e> now,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-592,when did <e> rebellion start,start_date,start_date,True
+WebQTest-593,what kind of disease does <e> have,condition,condition,True
+WebQTest-595,when is the last time the <e> won a superbowl,championships,championships,True
+WebQTest-596,where did <e> come from,location,location,True
+WebQTest-597,what style of music does <e> play,genre,genre,True
+WebQTest-599,what inventions did <e> invent list,inventions,inventions,True
+WebQTest-600,where did <e> come from,country country,place_of_birth,False
+WebQTest-602,what part of the country is <e>,containedby,containedby,True
+WebQTest-603,what money to take to <e>,currency_used,currency_used,True
+WebQTest-604,what kind of music did <e> play,genre,genre,True
+WebQTest-605,what degrees did <e> get in college,education degree,education institution,False
+WebQTest-606,who were <e> 's siblings,sibling_s sibling,sibling_s sibling,True
+WebQTest-608,when did <e> last win the champions league,championships,championships,True
+WebQTest-609,who played <e>,regular_cast actor,regular_cast actor,True
+WebQTest-611,where was <e> killed,place_of_death,place_of_death,True
+WebQTest-612,who does <e> play for in 2012,salary team,teams team,False
+WebQTest-613,what college did <e> jr go to,education institution,education institution,True
+WebQTest-614,when did the <e> start,start_date,start_date,True
+WebQTest-615,what were the names of <e> 's three children,children,children,True
+WebQTest-616,what was <e> childhood nickname,nickname,title,False
+WebQTest-617,where did <e> grow up,place_of_birth,place_of_birth,True
+WebQTest-618,where is <e>,locale,containedby,False
+WebQTest-619,who played <e>,regular_cast actor,regular_cast actor,True
+WebQTest-621,what countries have <e> as the official language,countries_spoken_in,countries_spoken_in,True
+WebQTest-622,where did the <e> began,geographic_scope,founders,False
+WebQTest-624,who plays <e> on vampire diaries,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-626,what does the <e> bisect,partially_contained_by partially_contained_by,tourist_attractions,False
+WebQTest-627,what nationality is taylor lautner <e>,nationality,nationality,True
+WebQTest-628,what animal represents <e>,official_symbols symbol,flag flag,False
+WebQTest-629,what company does <e> own,child child,brands brand,False
+WebQTest-630,what language do <e> people speak,languages_spoken,languages_spoken,True
+WebQTest-631,what year did ray allen join the <e>,career_start,career_start,True
+WebQTest-633,what is <e> famous for,profession,profession,True
+WebQTest-634,what county is <e> in,county,county,True
+WebQTest-635,what characters does <e> do,film character,starring_roles character,False
+WebQTest-636,what timezone is the state of <e> and,time_zones,time_zones,True
+WebQTest-637,what type of government did <e> have,form_of_government,form_of_government,True
+WebQTest-638,what languages are there in <e>,languages_spoken,languages_spoken,True
+WebQTest-639,what year did the <e> get rodman,teams from,awards season,False
+WebQTest-640,who was <e>,profession,profession,True
+WebQTest-642,where did <e> go to college,education institution,education institution,True
+WebQTest-643,where does princess <e> live,places_lived,places_lived,True
+WebQTest-644,what famous people are from <e>,people_born_here,people_born_here,True
+WebQTest-645,what type of art did <e> make,art_forms,associated_periods_or_movements,False
+WebQTest-646,where did <e> live,place_of_birth,place_of_birth,True
+WebQTest-648,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-649,what other movies has <e> been in,film film,film film,True
+WebQTest-650,what political party does <e> belong to,party party,party party,True
+WebQTest-651,what is the currency of <e> now,currency_used,currency_used,True
+WebQTest-652,what kind of hispanic is <e>,ethnicity,film film,False
+WebQTest-653,who did <e> married,spouse_s spouse,spouse_s spouse,True
+WebQTest-654,what are <e> money called,currency_used,currency_used,True
+WebQTest-655,what is the zip code for <e> michigan,postal_codes,postal_codes,True
+WebQTest-656,who is the president of <e> in 2012,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-657,where did <e> got shot at,place_of_death,place_of_death,True
+WebQTest-658,who wrote the <e>,author,author,True
+WebQTest-659,what form of government is the <e>,form_of_government,form_of_government,True
+WebQTest-662,what currency does the <e> use now,currency_used,currency_used,True
+WebQTest-663,what age did <e> get married,spouse_s from,spouse_s spouse,False
+WebQTest-664,what was <e> programmed in,languages_used,extensions,False
+WebQTest-665,what government does <e> have,form_of_government,form_of_government,True
+WebQTest-666,where is <e> located on the map,containedby,containedby,True
+WebQTest-667,what is the capital of republic of <e>,capital,capital,True
+WebQTest-668,what has <e> acted in,film film,film film,True
+WebQTest-669,what did <e> do,profession,profession,True
+WebQTest-670,what kind of language does <e> speak,official_language,languages_spoken,False
+WebQTest-671,who are the senators of <e> 2012,representatives office_holder,representatives office_holder,True
+WebQTest-672,what form of government does <e> have,form_of_government,form_of_government,True
+WebQTest-673,where did <e> go to college,education institution,education institution,True
+WebQTest-675,what county is <e> fl in,county,county,True
+WebQTest-676,what did the <e> include,contains,contains,True
+WebQTest-677,after how many years are <e> games held,current_frequency,equivalent_concept,False
+WebQTest-678,what system of government does <e> have,form_of_government,form_of_government,True
+WebQTest-680,what team did <e> play for,teams team,teams team,True
+WebQTest-681,who is the president of the <e> 2012,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-683,what year was kenya moore crowned <e>,instances,instances,True
+WebQTest-684,what sort of government does <e> have,form_of_government,form_of_government,True
+WebQTest-685,where does chef <e> live,places_lived location,places_lived location,True
+WebQTest-686,when the <e> won the world series,championships,championships,True
+WebQTest-688,what kind of language do they speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-689,what was the first language spoken in <e>,official_language,official_language,True
+WebQTest-690,what did <e> play,instruments_played,instruments_played,True
+WebQTest-691,what school did <e>,education institution,education institution,True
+WebQTest-693,what language do most people speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-694,who is the prime minister of <e>,office_holders office_holder,office_holders office_holder,True
+WebQTest-695,what role did <e> play in the beatles,membership role,film character,False
+WebQTest-696,when did <e> win the champions league,championships,championships,True
+WebQTest-698,who is <e> father,parents,parents,True
+WebQTest-699,what is the capital of australia <e>,capital,capital,True
+WebQTest-700,where is <e> spoken most,countries_spoken_in,countries_spoken_in,True
+WebQTest-701,what team is <e> on 2011,teams team,teams team,True
+WebQTest-702,what highschool did <e> go to,education institution,education institution,True
+WebQTest-703,what currency should i take to <e>,currency_used,currency_used,True
+WebQTest-704,who is <e>,profession,profession,True
+WebQTest-706,where did <e> play football,teams team,teams team,True
+WebQTest-708,who won <e> 1976,winners award_winner,winners award_winner,True
+WebQTest-709,what did general <e> die from,cause_of_death,cause_of_death,True
+WebQTest-710,what style of art did <e> do,associated_periods_or_movements,associated_periods_or_movements,True
+WebQTest-711,who plays <e> in gossip girl,played_by,appeared_in_tv_program actor,False
+WebQTest-712,what countries have territories in <e>,contains,contains,True
+WebQTest-713,what county is st. louis park in,county,county,True
+WebQTest-714,what is the political system of <e>,form_of_government,form_of_government,True
+WebQTest-716,what language group does <e> belong to,language_family,parent,False
+WebQTest-717,what timezone is <e> in right now,time_zones,time_zones,True
+WebQTest-718,when was <e> born,date_of_birth,date_of_birth,True
+WebQTest-719,which political party does <e> represent,party party,party party,True
+WebQTest-721,what kind of leukemia did <e> have,cause_of_death,film film,False
+WebQTest-723,what is there to see in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-724,where was <e> found dead,place_of_death,place_of_birth,False
+WebQTest-725,what states does the sierra <e> run through,partially_containedby,partially_containedby,True
+WebQTest-726,what language is spoken in <e>,official_language,official_language,True
+WebQTest-728,what is the name of the speaker of the <e> now 2011,office_holders office_holder,office_holders office_holder,True
+WebQTest-729,who plays <e>,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-730,what record label is <e> signed with,label,label,True
+WebQTest-731,where does <e> come from,place_of_birth,place_of_birth,True
+WebQTest-733,what currency should you take to <e>,currency_used,currency_used,True
+WebQTest-734,who did <e> married,spouse_s spouse,spouse_s spouse,True
+WebQTest-735,what kind of money do i need in <e>,currency_used,currency_used,True
+WebQTest-737,what is the name of the capital of <e>,capital,capital,True
+WebQTest-738,what kind of government does <e> have now,form_of_government,form_of_government,True
+WebQTest-739,what pieces of music did <e> compose,compositions,genre,False
+WebQTest-740,who was selena gomez in <e>,starring_roles character,profession,False
+WebQTest-741,who plays caesar flickerman in <e>,starring actor,starring actor,True
+WebQTest-742,where did the <e>,locations,locations,True
+WebQTest-743,what was the name of <e> 's brothers,sibling_s sibling,sibling_s sibling,True
+WebQTest-744,who was <e> signed to,label,label,True
+WebQTest-745,what was <e> famous for,profession,profession,True
+WebQTest-747,what language does <e>,languages_spoken,official_language,False
+WebQTest-748,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-749,who was president in 1988 in the <e>,office_holders office_holder,office_holders office_holder,True
+WebQTest-751,who owns <e> 2012,leadership person,board_members member,False
+WebQTest-752,what drink did <e> create,inventions,inventions,True
+WebQTest-753,what position did <e> play,position_s,position_s,True
+WebQTest-755,what was <e> charlie full name,representations_in_fiction,children,False
+WebQTest-756,who makes the voice of <e>,appeared_in_tv_program actor,portrayed_in_films actor,False
+WebQTest-757,who is <e> mom and dad,parents,parents,True
+WebQTest-758,who is the <e> 2009,office_holders office_holder,office_holders office_holder,True
+WebQTest-759,who <e> has dated,sexual_relationships celebrity,sexual_relationships celebrity,True
+WebQTest-760,what party does <e> belong to,party party,party party,True
+WebQTest-761,what is <e> zip code,postal_codes,postal_codes,True
+WebQTest-762,who has <e> played for,teams team,teams team,True
+WebQTest-764,where did <e> go to college,education institution,education institution,True
+WebQTest-765,what celebrities has <e> dated,sexual_relationships celebrity,film film,False
+WebQTest-766,what is <e> currency,currency_used,currency_used,True
+WebQTest-768,who owns <e> car company,parent parent,parent parent,True
+WebQTest-769,which is the main train station in <e>,how_to_get_here transport_terminus,how_to_get_here transport_terminus,True
+WebQTest-770,what did <e> died from,cause_of_death,cause_of_death,True
+WebQTest-771,who is the newly elected governor of <e>,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-772,who plays roxanne in <e>,starring actor,starring actor,True
+WebQTest-773,where is the sony <e>,headquarters citytown,headquarters citytown,True
+WebQTest-774,what kind of currency does the <e> have,currency_used,currency_used,True
+WebQTest-775,what to do this weekend in <e> with kids,tourist_attractions,tourist_attractions,True
+WebQTest-776,what sport is popular in <e>,teams,teams,True
+WebQTest-777,where is the main headquarters of <e>,headquarters citytown,headquarters citytown,True
+WebQTest-778,what was <e> education,education institution,education institution,True
+WebQTest-779,where does <e> live,places_lived location,places_lived location,True
+WebQTest-780,what is the new <e> about,genre,country,False
+WebQTest-782,what countries does <e> include,members member,members member,True
+WebQTest-783,what county is <e> tx in,county,county,True
+WebQTest-784,where do the <e> play,arena_stadium,arena_stadium,True
+WebQTest-785,who does <e> play in cars,film character,film character,True
+WebQTest-787,where is the <e>,containedby,containedby,True
+WebQTest-788,what is the holy <e> the buddhist religion,texts,membership religion,False
+WebQTest-789,who became president when <e> died,vice_president,vice_president,True
+WebQTest-790,where did <e> grow up,place_of_birth,place_of_birth,True
+WebQTest-791,what other books did <e> write,works_written,works_written,True
+WebQTest-792,when did roth <e> originate,named_after,named_after,True
+WebQTest-794,who does the voice for <e>,portrayed_in_films actor,appeared_in_tv_program actor,False
+WebQTest-796,what did <e> do,profession,profession,True
+WebQTest-797,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-798,what states share a border with <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-800,what war did the <e> lose the most soldiers,casualties military_conflict,major_exports industry,False
+WebQTest-801,what kind of government is <e>,form_of_government,form_of_government,True
+WebQTest-802,what musical instruments does <e> play,track_contributions role,track_contributions role,True
+WebQTest-805,where do <e> die,place_of_death,place_of_death,True
+WebQTest-809,what is the current time in <e> india,time_zones,time_zones,True
+WebQTest-810,what language do people from <e> speak,languages_spoken,languages_spoken,True
+WebQTest-811,where is the <e> spring training stadium,training_ground facility,arena_stadium,False
+WebQTest-812,what movies does <e> play in,film film,film film,True
+WebQTest-814,where is <e> corporate headquarters,headquarters citytown,headquarters citytown,True
+WebQTest-818,where was the <e> based,containedby,containedby,True
+WebQTest-819,where was <e> found and killed,place_of_death,place_of_death,True
+WebQTest-820,what are the names of <e> in order,films_in_series,films_in_series,True
+WebQTest-821,what did <e> die from,cause_of_death,cause_of_death,True
+WebQTest-822,what did <e> do,area_of_activism,profession,False
+WebQTest-823,what does <e> border,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-825,who does <e> play for,teams team,teams team,True
+WebQTest-827,what country does <e> come from,nationality,nationality,True
+WebQTest-828,what is the head judge of <e> court called,offices_positions,offices_positions,True
+WebQTest-829,who was <e> influenced by,influenced_by,influenced_by,True
+WebQTest-830,where is <e> from,place_of_birth,place_of_birth,True
+WebQTest-831,what type of religion does <e> have,religions religion,religions religion,True
+WebQTest-832,when is the last time the <e> won the world series,championships,championships,True
+WebQTest-833,what is the main language used in <e>,official_language,official_language,True
+WebQTest-834,where did the battle of <e> occur,locations,locations,True
+WebQTest-836,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-837,what year did the <e> win superbowl,championships,championships,True
+WebQTest-838,what team does <e> play for 2011,teams team,teams team,True
+WebQTest-841,what is money called in <e>,currency_used,currency_used,True
+WebQTest-843,where did <e> study,education institution,education institution,True
+WebQTest-845,who are the <e> senators 2013,representatives office_holder,representatives office_holder,True
+WebQTest-846,what was <e> 's real name,official_name,official_name,True
+WebQTest-847,what countries are members of the <e>,members member,members member,True
+WebQTest-848,where are the <e>,contains,contains,True
+WebQTest-849,what country sponsored <e>,nationality,nationality,True
+WebQTest-850,what did <e> die from,cause_of_death,cause_of_death,True
+WebQTest-851,what is the capital of modern day <e>,capital,capital,True
+WebQTest-852,what province is <e> in ( 7 letters ),state,state,True
+WebQTest-855,what is the currency of <e> now,currency_used,currency_used,True
+WebQTest-856,what types of art did <e> do,associated_periods_or_movements,associated_periods_or_movements,True
+WebQTest-857,what other states border <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-859,what are the predominant religions in <e>,religions religion,religions religion,True
+WebQTest-861,who will coach <e> in 2013,current_head_coach,historical_coaching_staff coach,False
+WebQTest-862,where did <e> grow up,place_of_birth,place_of_birth,True
+WebQTest-865,what to do for fun in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-866,where did <e> go to college,education institution,education institution,True
+WebQTest-867,what else has <e> played in,film film,film film,True
+WebQTest-868,who is the governor of <e> state now,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-869,where is ancient <e>,containedby,containedby,True
+WebQTest-870,where does the <e> practice,arena_stadium,arena_stadium,True
+WebQTest-872,where <e> got killed,place_of_death,place_of_death,True
+WebQTest-873,where does <e> get its water from,sewage_treatment_plant,containedby,False
+WebQTest-874,what language do people from <e> speak,official_language,languages_spoken,False
+WebQTest-875,where did <e> go to school,education institution,education institution,True
+WebQTest-876,who does <e> import from,places_imported_from imported_from,places_imported_from imported_from,True
+WebQTest-877,what is the name of <e> daughter,children,children,True
+WebQTest-878,who do <e> people pray to,deities,deities,True
+WebQTest-879,where was <e> from,place_of_birth,place_of_birth,True
+WebQTest-880,where did <e> die,place_of_death,place_of_death,True
+WebQTest-881,what movies does <e> play in,film film,film film,True
+WebQTest-882,when did the big earthquake hit <e>,start_date,start_date,True
+WebQTest-883,who was <e> married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-884,where was <e> after he died on the cross,place_of_death,place_of_death,True
+WebQTest-885,who is <e>,profession,profession,True
+WebQTest-886,who voiced <e> in the original star wars movies,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-887,what high school did <e> go to,education institution,education institution,True
+WebQTest-888,what 5 countries border <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-889,what country did <e> govern,government_positions_held jurisdiction_of_office,nationality,False
+WebQTest-891,who was the leader of the first <e>,founders,founders,True
+WebQTest-892,what did <e> died of,cause_of_death,cause_of_death,True
+WebQTest-893,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-894,what date did <e> won gold,medals_won olympics,medals_won olympics,True
+WebQTest-895,when did the <e> last win the championship,championships,championships,True
+WebQTest-896,when did the <e> win the cup,championships,championships,True
+WebQTest-898,what county is st paul <e> in,county,county,True
+WebQTest-899,where is <e> wa,containedby,containedby,True
+WebQTest-900,where did <e> 1831 rebellion occur,locations,locations,True
+WebQTest-901,who would play <e>,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-903,where <e> people originate,geographic_distribution,geographic_distribution,True
+WebQTest-908,what awards <e> won,awards_won award,awards_won award,True
+WebQTest-910,where did <e> die,place_of_death,place_of_death,True
+WebQTest-911,what year did the <e> win their first nba championship,championships,championships,True
+WebQTest-912,what currency should i take to <e>,currency_used,currency_used,True
+WebQTest-914,what countries are in the uk <e>,administrative_children,administrative_children,True
+WebQTest-915,what superbowl did the <e> win,championships,championships,True
+WebQTest-916,what is the language of <e> s spoken,languages_spoken,official_language,False
+WebQTest-918,who is the king of <e> now,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-919,who are <e> parents,parents,parents,True
+WebQTest-920,what schools did <e> go to,education institution,education institution,True
+WebQTest-921,what was the cause of death for <e>,cause_of_death,cause_of_death,True
+WebQTest-922,what books are written by <e>,works_written,book_editions_published,False
+WebQTest-923,what countries does <e> border,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-924,what team did <e> play for in 2010,teams team,teams team,True
+WebQTest-925,what time zone is <e>,time_zones,time_zones,True
+WebQTest-927,who plays <e>,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-928,what colleges did <e> attend,education institution,education institution,True
+WebQTest-929,who founded the <e>,founders,founders,True
+WebQTest-931,what jobs did <e> have before he was president,profession,profession,True
+WebQTest-932,what year did <e> come out,release_date,release_date,True
+WebQTest-933,what political party did <e> belong to,party party,party party,True
+WebQTest-935,where was <e> killed,place_of_death,place_of_death,True
+WebQTest-937,where are people who speak <e> from,countries_spoken_in,countries_spoken_in,True
+WebQTest-938,who was queen <e> mom,parents,parents,True
+WebQTest-939,what type of art did <e> paint,associated_periods_or_movements,art_forms,False
+WebQTest-941,what is <e> parents name,parents,parents,True
+WebQTest-942,who is <e> parents,parents,parents,True
+WebQTest-943,who does <e> gets engaged to,married_to spouses,married_to spouses,True
+WebQTest-944,what was <e> first album,album,member member,False
+WebQTest-945,what political system did <e> have,form_of_government,form_of_government,True
+WebQTest-948,what are <e> court cases,legal_cases,jurisdiction,False
+WebQTest-949,what is <e> 's main campus,headquarters citytown,contains,False
+WebQTest-952,what country does <e> belong to,country,country,True
+WebQTest-953,where is <e>,county,containedby,False
+WebQTest-954,what was pink <e> 's first album,album,member,False
+WebQTest-955,who did granville t. woods married,spouse_s spouse,spouse_s spouse,True
+WebQTest-957,what language did the sioux <e> speak,languages_spoken,languages_spoken,True
+WebQTest-958,what are some famous people from <e>,people_born_here,people_born_here,True
+WebQTest-959,who did <e> play for in 2008,teams team,teams team,True
+WebQTest-960,who plays dwight in <e>,regular_cast actor,regular_cast actor,True
+WebQTest-962,what county is <e>,county,county,True
+WebQTest-963,who is the <e> quarterback,roster player,roster player,True
+WebQTest-965,where did <e> go to school,education institution,education institution,True
+WebQTest-966,what basketball player is married to <e>,spouse_s spouse,spouse_s spouse,True
+WebQTest-967,what did <e> use to kill himself,cause_of_death,cause_of_death,True
+WebQTest-968,what do people speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-969,when is the last time the <e> won the superbowl,championships,championships,True
+WebQTest-970,where was <e> when he was stabbed,place_of_death,place_of_birth,False
+WebQTest-971,what style of music did <e> perform,genre,genre,True
+WebQTest-972,what team did <e>,teams team,teams team,True
+WebQTest-973,what time zone is <e> in right now,time_zones,time_zones,True
+WebQTest-975,who was the vice president under <e>,vice_president,vice_president,True
+WebQTest-976,where do the <e> play home games,arena_stadium,arena_stadium,True
+WebQTest-977,what part did <e> play in grease,film character,film film,False
+WebQTest-978,what book did <e> published,works_written,works_written,True
+WebQTest-979,what currency to take to <e>,currency_used,currency_used,True
+WebQTest-980,where did they get the name <e> cup,named_after,named_after,True
+WebQTest-982,what is the zip code of <e>,postal_codes,postal_codes,True
+WebQTest-983,where did <e> williams go to college,education institution,education institution,True
+WebQTest-984,what is the name of airport in <e>,how_to_get_here transport_terminus,nearby_airports,False
+WebQTest-985,who was <e> 's husband,spouse_s spouse,spouse_s spouse,True
+WebQTest-986,where did <e> work,employment_history company,employment_history company,True
+WebQTest-987,what does <e> do for work,government_positions_held basic_title,profession,False
+WebQTest-988,who is <e>,profession,profession,True
+WebQTest-989,what happened to <e> during ww2,events,events,True
+WebQTest-990,what was <e> good at,sports_played_professionally sport,profession,False
+WebQTest-991,who played donna on <e>,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-993,who played <e> in season 1 of family guy,appeared_in_tv_program actor,portrayed_in_films actor,False
+WebQTest-994,when was the last time the <e> won the superbowl,championships,championships,True
+WebQTest-996,where do <e> play rugby union,arena_stadium,arena_stadium,True
+WebQTest-997,who killed <e> shot,murdered_by,murdered_by,True
+WebQTest-998,when was the last time <e> won the championship,championships,championships,True
+WebQTest-999,when did <e> win the championship,championships,championships,True
+WebQTest-1000,what countries included in <e>,contains,contains,True
+WebQTest-1001,what country is <e> from,nationality,nationality,True
+WebQTest-1002,who played harry potter <e> actor,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1003,who was the prime minister of <e> in 1999,office_holders office_holder,office_holders office_holder,True
+WebQTest-1004,what movies did <e> play in,film film,film film,True
+WebQTest-1005,what is capital city of <e>,capital,capital,True
+WebQTest-1006,what movies is <e> in,film film,film film,True
+WebQTest-1007,what district does <e> represent,government_positions_held district_represented,government_positions_held district_represented,True
+WebQTest-1008,where is walton <e>,containedby,containedby,True
+WebQTest-1009,where did <e> go to college,education institution,education institution,True
+WebQTest-1010,what did <e> win gold medal for,medals_won event,medals_won event,True
+WebQTest-1011,where do they speak <e>,main_country,countries_spoken_in,False
+WebQTest-1012,what to do in <e> this weekend,tourist_attractions,tourist_attractions,True
+WebQTest-1014,where did <e> come from,place_of_birth,place_of_birth,True
+WebQTest-1015,what town did <e> grew up in,places_lived location,place_of_birth,False
+WebQTest-1017,who plays charlie in <e> movies,starring actor,starring actor,True
+WebQTest-1020,what highschool did r. kelly attend,education institution,education institution,True
+WebQTest-1021,what happened at <e>,events,notable_for notable_object,False
+WebQTest-1022,what country is <e> based in,headquarters country,headquarters country,True
+WebQTest-1024,what kind of money do i bring to <e>,currency_used,currency_used,True
+WebQTest-1025,who did <e> play pro football for,teams team,teams team,True
+WebQTest-1027,where do the <e> play,arena_stadium,arena_stadium,True
+WebQTest-1028,who plays <e>,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1029,what is the main language spoken in <e>,languages_spoken,languages_spoken,True
+WebQTest-1030,what are <e> classified as,included_in_group,domains,False
+WebQTest-1031,what has <e> accomplished,profession,film film,False
+WebQTest-1032,who played <e> in star trek movie,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1033,who played <e> in x files,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1035,what was f. scott fitzgerald,profession,profession,True
+WebQTest-1036,what is the dominant language spoken in <e>,official_language,official_language,True
+WebQTest-1037,who is the coach for the <e>,head_coach,head_coach,True
+WebQTest-1038,who was <e>,profession,profession,True
+WebQTest-1039,where does <e> live,places_lived location,places_lived location,True
+WebQTest-1040,what kind of language does <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1041,what currency does <e> use now,currency_used,currency_used,True
+WebQTest-1042,who was the original voice of meg griffin on <e>,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-1043,what kind of government is <e>,form_of_government,form_of_government,True
+WebQTest-1044,who did <e> play for in 2010,teams team,teams team,True
+WebQTest-1045,what is the zip code for morgantown <e>,postal_codes,postal_codes,True
+WebQTest-1046,what is <e> timezone,time_zones,time_zones,True
+WebQTest-1047,who does <e> play in dodgeball,film character,film character,True
+WebQTest-1048,who were <e> children,children,children,True
+WebQTest-1050,who does <e> play on family guy,regular_cast character,regular_cast character,True
+WebQTest-1051,when did the <e> earthquake occur,start_date,start_date,True
+WebQTest-1052,who played damien in <e> 2006,starring actor,starring actor,True
+WebQTest-1054,who played denver in <e>,starring actor,starring actor,True
+WebQTest-1055,what to do with kids in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1056,who did the <e> draft,draft_picks player,draft_picks player,True
+WebQTest-1057,what concentration camp did <e> died in,place_of_death,place_of_death,True
+WebQTest-1059,what language does <e> speak,official_language,languages_spoken,False
+WebQTest-1060,what is the currency in <e>,currency_used,currency_used,True
+WebQTest-1061,where does <e> language come from,parent,language_family,False
+WebQTest-1062,what is the name of the currency used in <e>,currency_used,currency_used,True
+WebQTest-1063,where is <e> from,place_of_birth,place_of_birth,True
+WebQTest-1065,who does <e> voice,portrayed_in_films actor,appeared_in_tv_program actor,False
+WebQTest-1067,what school did <e> go to,education institution,education institution,True
+WebQTest-1068,what famous people are from <e>,people_born_here,people_born_here,True
+WebQTest-1069,what is the name of the currency used in <e>,currency_used,currency_used,True
+WebQTest-1070,what are the names of <e> 's 3 children,children,children,True
+WebQTest-1072,who is the current governor of <e> 2010,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1074,who is <e> playing for this year,teams team,teams team,True
+WebQTest-1075,where were the <e> built,building_complex,containedby,False
+WebQTest-1077,what language do the <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1078,what language do <e> people speak,languages_spoken,languages_spoken,True
+WebQTest-1079,what country was <e> found,containedby,containedby,True
+WebQTest-1080,where did <e> and his descendants live,places_lived location,places_lived location,True
+WebQTest-1081,where did <e> go to collage,education institution,education institution,True
+WebQTest-1082,what are the sports in <e>,teams,teams,True
+WebQTest-1083,where <e> was born,place_of_birth,place_of_birth,True
+WebQTest-1084,what sports do people play in <e>,teams,teams,True
+WebQTest-1085,who was <e> dating,sexual_relationships celebrity,sexual_relationships celebrity,True
+WebQTest-1087,what films has <e> been in,film film,film film,True
+WebQTest-1088,who originally voiced meg on <e>,regular_cast actor,regular_cast actor,True
+WebQTest-1089,who played amy squirrel in <e>,starring actor,starring actor,True
+WebQTest-1090,where are <e> headquarters,headquarters citytown,headquarters citytown,True
+WebQTest-1091,what type of religions are in the <e>,religions religion,religions religion,True
+WebQTest-1092,who did <e> play in lord of the rings,film character,film character,True
+WebQTest-1094,who was <e> and what did he do,profession,profession,True
+WebQTest-1095,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-1096,what movies <e> is in,film film,film film,True
+WebQTest-1097,where did <e> graduated from,education institution,education institution,True
+WebQTest-1098,what kind of music did <e> compose,genre,genre,True
+WebQTest-1099,what country does <e> play for,teams team,teams team,True
+WebQTest-1100,what document did <e> wrote,works_written,works_written,True
+WebQTest-1101,who is <e> facts,profession,profession,True
+WebQTest-1102,where is <e>,containedby,containedby,True
+WebQTest-1103,how many <e> sisters,member member,member member,True
+WebQTest-1104,what do we call the currency of <e>,currency_used,currency_used,True
+WebQTest-1106,what team does <e> play for in 2012,teams team,teams team,True
+WebQTest-1107,what movies did <e> star in,film film,film film,True
+WebQTest-1108,what radio station is <e> on in nyc,affiliates station,location,False
+WebQTest-1109,who did <e> play for,teams team,teams team,True
+WebQTest-1110,where was <e> born,place_of_birth,place_of_birth,True
+WebQTest-1111,where is <e> located,containedby,containedby,True
+WebQTest-1113,where was toussaint l'ouverture born,place_of_birth,place_of_birth,True
+WebQTest-1114,what countries makes up the <e>,administrative_children,administrative_children,True
+WebQTest-1115,what is <e> zip code,postal_codes,postal_codes,True
+WebQTest-1116,what is the capital city of <e> wiki answers,capital,capital,True
+WebQTest-1117,where do they speak <e>,countries_spoken_in,countries_spoken_in,True
+WebQTest-1118,when did <e> retired,lifetime_batting_statistics ending_season,drafted draft,False
+WebQTest-1119,what is <e>,notable_types,containedby,False
+WebQTest-1120,what was the currency used in <e> before the euro,currency_formerly_used,currency_formerly_used,True
+WebQTest-1121,what is <e> state slogan,official_symbols symbol,official_symbols symbol,True
+WebQTest-1124,who played samantha stephens in <e>,regular_cast actor,regular_cast actor,True
+WebQTest-1125,what area of science did <e> study,profession,education institution,False
+WebQTest-1126,what county is <e> in,county,county,True
+WebQTest-1127,which country in <e> is divided into provinces,contains,contains,True
+WebQTest-1130,what is real name of <e>,based_on,portrayed_in_films actor,False
+WebQTest-1131,when did <e> go pro,sports_played_professionally career_start,competitions_won,False
+WebQTest-1132,what did <e> died from,cause_of_death,cause_of_death,True
+WebQTest-1135,who was vp for <e>,vice_president,profession,False
+WebQTest-1136,what religion did <e> follow,religion,religion,True
+WebQTest-1137,where is the <e> on a map,containedby,containedby,True
+WebQTest-1138,where <e> in the world,containedby,containedby,True
+WebQTest-1142,who does <e> play for now 2011,teams team,teams team,True
+WebQTest-1143,what <e> was famous for,known_for,profession,False
+WebQTest-1145,where did <e> graduated college,education institution,education institution,True
+WebQTest-1146,who did <e> play in corpse bride,film character,film character,True
+WebQTest-1147,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-1148,what college did <e> go,education institution,education institution,True
+WebQTest-1149,when was <e> fearless tour,start_date,start_date,True
+WebQTest-1151,where did <e> and his wife live,places_lived location,places_lived location,True
+WebQTest-1152,who is the voice of <e>,portrayed_in_films actor,appeared_in_tv_program actor,False
+WebQTest-1153,what is <e> 's real full name,official_name,official_name,True
+WebQTest-1154,who is <e> 's first husband,spouse_s spouse,spouse_s spouse,True
+WebQTest-1155,what are the seven nations of <e>,contains,contains,True
+WebQTest-1156,what is <e> baby name,children,children,True
+WebQTest-1160,who is the mother of prince <e>,parents,parents,True
+WebQTest-1161,what is the <e> mascot name,mascot,mascot,True
+WebQTest-1163,what rainforest is in <e>,contains,partially_contains,False
+WebQTest-1164,what type of art does <e> do,associated_periods_or_movements,associated_periods_or_movements,True
+WebQTest-1166,when did we start war with <e>,start_date,start_date,True
+WebQTest-1168,what guitar did <e>,guitars_played,guitars_played,True
+WebQTest-1169,who did <e> play in x men,film character,film character,True
+WebQTest-1170,who is the governor of <e> 2011,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1171,who did <e> voice,portrayed_in_films actor,appeared_in_tv_program actor,False
+WebQTest-1173,where is <e> ga,containedby,containedby,True
+WebQTest-1174,what cancer did <e> die of,cause_of_death,cause_of_death,True
+WebQTest-1175,what does <e> major in,education major_field_of_study,film film,False
+WebQTest-1176,what time zone is <e> in right now,time_zones,time_zones,True
+WebQTest-1177,where did <e> go to school,education institution,education institution,True
+WebQTest-1178,where is <e> from originally,place_of_birth,place_of_birth,True
+WebQTest-1179,what role did <e> play in star wars,film character,film character,True
+WebQTest-1180,what <e> books are movies,film_story_credits,works_written,False
+WebQTest-1181,what is the current time in <e> hawaii,time_zones,time_zones,True
+WebQTest-1183,where was <e> buried,place_of_burial,place_of_burial,True
+WebQTest-1185,what inspired <e>,influenced_by,influenced_by,True
+WebQTest-1186,what kind of government does <e> have today,form_of_government,form_of_government,True
+WebQTest-1187,where are <e> speakers distributed,main_country,parent,False
+WebQTest-1189,what is the capital of <e> today,capital,capital,True
+WebQTest-1191,what language do people speak in the <e>,languages_spoken,languages_spoken,True
+WebQTest-1192,where did <e> go to school,education institution,education institution,True
+WebQTest-1194,what club does <e> play for in 2010,teams team,teams team,True
+WebQTest-1195,what time zone is in the <e>,time_zones,time_zones,True
+WebQTest-1197,what language do people speak in <e>,official_language,languages_spoken,False
+WebQTest-1198,who influenced <e>,influenced_by,influenced_by,True
+WebQTest-1199,what does <e> work as,profession,employment_history company,False
+WebQTest-1200,where did the <e> end,mouth,mouth,True
+WebQTest-1201,who played <e> on psych,regular_cast actor,regular_cast actor,True
+WebQTest-1203,who is president of <e>,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1204,where did the anasazi <e> live,geographic_distribution,geographic_distribution,True
+WebQTest-1205,who plays <e>,appeared_in_tv_program actor,portrayed_in_films actor,False
+WebQTest-1206,what was <e> contributions,profession,profession,True
+WebQTest-1209,when does ziva start on <e>,regular_cast seasons,regular_cast seasons,True
+WebQTest-1210,what is the name of the national anthem of <e> ( 2 words ),national_anthem anthem,national_anthem anthem,True
+WebQTest-1212,what did <e> study,education major_field_of_study,education major_field_of_study,True
+WebQTest-1213,which country was <e> born,place_of_birth,place_of_birth,True
+WebQTest-1215,who was <e>,profession,profession,True
+WebQTest-1216,what country was <e> in charge of,government_positions_held jurisdiction_of_office,nationality,False
+WebQTest-1217,what is <e> career high points,awards award,drafted draft,False
+WebQTest-1219,what nationality is <e>,nationality,nationality,True
+WebQTest-1220,what has <e> played in,film film,film film,True
+WebQTest-1221,what college did <e>,education institution,education institution,True
+WebQTest-1223,who plays <e>,starring actor,starring actor,True
+WebQTest-1225,what <e> boyfriends name,dated participant,profession,False
+WebQTest-1226,what form of government does <e> use,form_of_government,form_of_government,True
+WebQTest-1227,what team did <e>,teams team,teams team,True
+WebQTest-1228,where did the <e> alphabet come from,parent_writing_systems,parent_writing_systems,True
+WebQTest-1229,what timezone is <e>,time_zones,time_zones,True
+WebQTest-1230,what to see in christchurch <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1231,where is <e> from,nationality,place_of_birth,False
+WebQTest-1232,what year was <e> rookie year,awards season,drafted draft,False
+WebQTest-1233,what are the colors of the <e>,colors,colors,True
+WebQTest-1234,what business did <e> dominate,disciplines,profession,False
+WebQTest-1235,what was <e> 's inventions,inventions,inventions,True
+WebQTest-1237,who did <e> first play for,drafted team,teams team,False
+WebQTest-1238,who was the artist of <e>,character_created_by,portrayed_in_films actor,False
+WebQTest-1239,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-1240,what football team is <e> on,teams team,teams team,True
+WebQTest-1241,where does the <e> start,origin,origin,True
+WebQTest-1242,what are all the names of the <e> potter books,appears_in_book,appears_in_book,True
+WebQTest-1244,who was sir <e> and what did he do,profession,profession,True
+WebQTest-1245,what countries are in the <e> dollar,countries_used,countries_used,True
+WebQTest-1246,what currency can you use in <e>,currency_used,currency_used,True
+WebQTest-1247,who is <e>,profession,profession,True
+WebQTest-1248,where is <e> city,containedby,containedby,True
+WebQTest-1249,what is the state flower of <e>,official_symbols symbol,official_symbols symbol,True
+WebQTest-1250,where is the national <e> foundation located today,headquarters citytown,headquarters citytown,True
+WebQTest-1251,which countries speak <e> languages,countries_spoken_in,countries_spoken_in,True
+WebQTest-1252,who plays <e> in lord of the rings,starring actor,starring actor,True
+WebQTest-1254,where is <e> 2012,locations,locations,True
+WebQTest-1255,what type of cancer did <e> die from,cause_of_death,cause_of_death,True
+WebQTest-1256,who did <e> play for in 2010,teams team,teams team,True
+WebQTest-1257,where is <e>,containedby,containedby,True
+WebQTest-1259,what books did <e> write,book_editions_published,works_written,False
+WebQTest-1260,what year did <e> win super bowl,championships,championships,True
+WebQTest-1261,where did the battle of <e> happen,locations,locations,True
+WebQTest-1262,what part of the country is <e> considered,containedby,country,False
+WebQTest-1263,what team is <e> play for,teams team,teams team,True
+WebQTest-1264,what standard time is <e>,time_zones,time_zones,True
+WebQTest-1265,what was <e>,notable_types,profession,False
+WebQTest-1266,what did <e> do,profession,profession,True
+WebQTest-1267,what currency can you use in <e>,currency_used,currency_used,True
+WebQTest-1268,where did <e> die,place_of_death,place_of_death,True
+WebQTest-1269,where was the <e> tea party 1773,locations,locations,True
+WebQTest-1270,what drugs <e> abuse,substance_abuse substance,substance_abuse substance,True
+WebQTest-1271,when did <e> go to superbowl,championships,championships,True
+WebQTest-1272,when did the <e> cyclone happen,formed,tropical_cyclone_season,False
+WebQTest-1274,who won the governor election in <e>,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1275,what does <e> do,profession,profession,True
+WebQTest-1276,when are the summer and <e> held,current_frequency,current_frequency,True
+WebQTest-1277,where is <e>,partially_containedby,containedby,False
+WebQTest-1278,what are some major events in <e>,events,capital,False
+WebQTest-1279,what guitar does <e> play,instruments_played,instruments_played,True
+WebQTest-1281,where did <e> grew up,place_of_birth,place_of_birth,True
+WebQTest-1282,under what political system does the <e> operate,form_of_government,form_of_government,True
+WebQTest-1284,what to do in <e> in 1 day,tourist_attractions,tourist_attractions,True
+WebQTest-1285,what city is <e> in,containedby,containedby,True
+WebQTest-1287,what is the state motto of <e>,official_symbols symbol,official_symbols symbol,True
+WebQTest-1289,what type of music did <e> composed,genre,genre,True
+WebQTest-1291,how many kids were there in the <e> family,children,children,True
+WebQTest-1292,which <e> is closest to the port,nearby_airports,tourist_attractions,False
+WebQTest-1293,where has the <e> language evolved from,language_family,language_family,True
+WebQTest-1294,what country did <e> invade that started ww2,includes_event,locations,False
+WebQTest-1295,what does <e> play in,film film,film film,True
+WebQTest-1296,what was <e> known for,profession,profession,True
+WebQTest-1297,what continent does <e> belong to,continent,continent,True
+WebQTest-1298,what does <e> do for a living,profession,profession,True
+WebQTest-1300,what city does <e> play in,location,arena_stadium,False
+WebQTest-1301,what are fun things to do in <e> ca,tourist_attractions,tourist_attractions,True
+WebQTest-1303,what other movies is <e> in,film film,film film,True
+WebQTest-1304,what was <e> the leader of,organizations_founded,profession,False
+WebQTest-1305,what awards did <e> won,awards_won award,awards_won award,True
+WebQTest-1306,what kind of government does <e> have after 1979,form_of_government,form_of_government,True
+WebQTest-1307,where did <e> attend high school,education institution,education institution,True
+WebQTest-1308,what college did <e> go to,education institution,education institution,True
+WebQTest-1309,what art did <e> do,art_forms,associated_periods_or_movements,False
+WebQTest-1310,who won the <e> in 2002,winners award_winner,winners award_winner,True
+WebQTest-1311,what was <e> inspired by,influenced_by,influenced_by,True
+WebQTest-1312,in what country do people speak <e>,main_country,countries_spoken_in,False
+WebQTest-1313,who were <e> 's siblings,siblings siblings,siblings siblings,True
+WebQTest-1314,where should a family stay in <e>,accommodation,accommodation,True
+WebQTest-1316,what was the name of <e> wife,spouse_s spouse,spouse_s spouse,True
+WebQTest-1317,what the largest city in <e>,contains,contains,True
+WebQTest-1319,who has <e> played for,teams team,teams team,True
+WebQTest-1320,what is the <e> stadium called,arena_stadium,arena_stadium,True
+WebQTest-1321,where did the <e> war take place,locations,locations,True
+WebQTest-1322,what other movies has <e> played in,film film,film film,True
+WebQTest-1323,what to visit in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1324,what college did <e> go to,education institution,education institution,True
+WebQTest-1325,what language do <e> speak,official_language,languages_spoken,False
+WebQTest-1326,what did <e> do for the world,inventions,profession,False
+WebQTest-1327,where is <e> from,origin,place_of_birth,False
+WebQTest-1328,what did <e> do,notable_for object,profession,False
+WebQTest-1329,who played bilbo in <e>,starring actor,starring actor,True
+WebQTest-1330,what is the most populated state in <e>,administrative_children,contains,False
+WebQTest-1331,who is my state senator <e>,representatives office_holder,representatives office_holder,True
+WebQTest-1332,when does the <e> war end,end_date,end_date,True
+WebQTest-1333,where does the <e> go,mouth,origin,False
+WebQTest-1334,who did <e> play in apollo 13,film character,film character,True
+WebQTest-1335,what language do they in <e>,official_language,official_language,True
+WebQTest-1336,what is <e> 's state capitol,street_address citytown,containedby,False
+WebQTest-1337,what all did <e> invent,inventions,inventions,True
+WebQTest-1339,what team does <e> play for 2013,teams team,teams team,True
+WebQTest-1340,what is <e> nationality,nationality,nationality,True
+WebQTest-1341,who are the u s senators of <e>,representatives office_holder,representatives office_holder,True
+WebQTest-1342,what kind of language does <e> speak,official_language,languages_spoken,False
+WebQTest-1343,what degree did <e> earn,education degree,education degree,True
+WebQTest-1344,what two states is <e> in,containedby,adjoin_s adjoins,False
+WebQTest-1350,what did <e> won,awards_won award,film film,False
+WebQTest-1351,what is the name of the currency used in <e>,currency_used,currency_used,True
+WebQTest-1353,what are the four nations of the <e>,administrative_children,contains,False
+WebQTest-1354,who is <e> father,parents,parents,True
+WebQTest-1355,what school did <e> go to,education institution,education institution,True
+WebQTest-1356,what drug killed <e>,cause_of_death,cause_of_death,True
+WebQTest-1357,where is the <e>,containedby,containedby,True
+WebQTest-1358,what is <e> time zone,time_zones,time_zones,True
+WebQTest-1359,what did <e> name his son,children,children,True
+WebQTest-1361,what currency should take to <e>,currency_used,currency_used,True
+WebQTest-1362,who is the state governor of <e>,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1363,who was <e> married too,spouse_s spouse,spouse_s spouse,True
+WebQTest-1364,what do they speak in <e>,official_language,languages_spoken,False
+WebQTest-1365,what did <e> study,profession,profession,True
+WebQTest-1366,what songs do <e> sing,track,track,True
+WebQTest-1367,where is <e>,containedby,containedby,True
+WebQTest-1368,who formed the <e>,founders,founders,True
+WebQTest-1369,what to visit in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1370,where did <e> live,places_lived location,places_lived location,True
+WebQTest-1373,where was <e> when he got shot,place_of_death,place_of_death,True
+WebQTest-1374,what type of government does <e> have 2011,form_of_government,form_of_government,True
+WebQTest-1376,what province is <e> located,state,state,True
+WebQTest-1378,who does <e> play in prom night,film character,film character,True
+WebQTest-1379,what did <e> do to earn a living,profession,profession,True
+WebQTest-1380,what was <e> known for,profession,profession,True
+WebQTest-1381,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-1382,what other countries border <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-1383,what language does people in <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1384,what is the predominant religion in <e>,religions religion,religions religion,True
+WebQTest-1385,who has coached the <e>,historical_coaching_staff coach,historical_coaching_staff coach,True
+WebQTest-1387,what time zone is <e> gmt,time_zones,time_zones,True
+WebQTest-1388,what country did toussaint l'ouverture help free,service military_force,nationality,False
+WebQTest-1389,what jobs did <e> have,profession,profession,True
+WebQTest-1390,who won <e> attorney general,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1392,what the language spoken in <e>,languages_spoken,official_language,False
+WebQTest-1394,who coaches the <e>,current_head_coach,owner_s,False
+WebQTest-1395,what other countries does <e> share borders with,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-1396,who played <e> at the end of return of the jedi,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1398,what movies did <e> play in,film film,film film,True
+WebQTest-1399,what products does the <e> export,major_exports industry,major_exports industry,True
+WebQTest-1402,what is the <e> state bird,official_symbols symbol,official_symbols symbol,True
+WebQTest-1403,who was <e> prime minister in 1993,office_holders office_holder,office_holders office_holder,True
+WebQTest-1405,what there to do in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1408,who is the current <e> state senator,members office_holder,members office_holder,True
+WebQTest-1409,what are the major languages spoken in the <e>,official_language,official_language,True
+WebQTest-1410,what did st. nicholas do in his life,profession,representations_in_fiction,False
+WebQTest-1414,what happened to pope <e>,cause_of_death,cause_of_death,True
+WebQTest-1416,what was <e> famous for,notable_types,profession,False
+WebQTest-1417,when was the last time the <e> went to the stanley cup,championships,championships,True
+WebQTest-1418,who is <e> married to in real life,appeared_in_tv_program actor,married_to spouses,False
+WebQTest-1419,what inspired <e>,influenced_by,influenced_by,True
+WebQTest-1420,what does <e> own,industry,brands brand,False
+WebQTest-1421,who did <e> play on cheers,starring_roles character,film character,False
+WebQTest-1422,what language do they speak in <e> yahoo,languages_spoken,languages_spoken,True
+WebQTest-1423,what language did they speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-1424,what form of government do we have in the <e>,form_of_government,form_of_government,True
+WebQTest-1425,what colleges did <e> attend,education institution,education institution,True
+WebQTest-1426,where is <e> from,place_of_birth,place_of_birth,True
+WebQTest-1427,who was the secretary of state when <e> was president,appointees office_holder,appointees office_holder,True
+WebQTest-1428,who does <e> stoppable 's voice,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-1429,what currency is accepted in <e>,currency_used,currency_used,True
+WebQTest-1432,what places are in the <e>,contains,contains,True
+WebQTest-1433,what to do with kids in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1434,who is in the <e> in baseball,teams,founders,False
+WebQTest-1435,who did <e> play 4,teams team,teams team,True
+WebQTest-1436,who is <e> wife,spouse_s spouse,spouse_s spouse,True
+WebQTest-1441,where all did <e> live,places_lived location,places_lived location,True
+WebQTest-1442,what currency shall i take to <e>,currency_used,currency_used,True
+WebQTest-1443,what team is <e> on,teams team,teams team,True
+WebQTest-1445,what tv series did <e> star in,starring_roles series,starring_roles series,True
+WebQTest-1446,what year did <e> die,date_of_death,date_of_death,True
+WebQTest-1447,who plays <e> in star wars 1,starring actor,starring actor,True
+WebQTest-1448,where does <e> live now,places_lived location,places_lived location,True
+WebQTest-1449,what was <e> famous for,profession,profession,True
+WebQTest-1452,where is <e> now,teams team,places_lived location,False
+WebQTest-1453,who is <e> married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-1454,where did <e> grew up,place_of_birth,place_of_birth,True
+WebQTest-1455,what capital city of <e>,capital,capital,True
+WebQTest-1456,what college did <e> go to,education institution,education institution,True
+WebQTest-1457,what kind of currency does <e> use,currency_used,currency_used,True
+WebQTest-1458,who owns <e> 2011,parent parent,parent parent,True
+WebQTest-1459,what are some books that <e> wrote,book_editions_published,works_written,False
+WebQTest-1460,what was <e> contribution,profession,profession,True
+WebQTest-1461,who has <e> dated,spouse_s spouse,teams team,False
+WebQTest-1462,who is running for vice president with <e> 2012,vice_president,vice_president,True
+WebQTest-1463,what language do people from the <e> speak,official_language,languages_spoken,False
+WebQTest-1464,what to do with my kids in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1465,what kind of government is <e>,form_of_government,form_of_government,True
+WebQTest-1467,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-1468,what <e> capital,capital,capital,True
+WebQTest-1470,what kind of government does <e> have,form_of_government,form_of_government,True
+WebQTest-1471,what famous people came from <e>,people_born_here,people_born_here,True
+WebQTest-1472,when did <e> become governor,government_positions_held from,government_positions_held from,True
+WebQTest-1473,what currency does <e> use,currency_used,currency_used,True
+WebQTest-1475,what type of guitar does <e> play,instruments_played,instruments_played,True
+WebQTest-1477,what episode of how i met your mother is <e> on,guest_roles episodes_appeared_in,starring_roles seasons,False
+WebQTest-1478,who are the 9 justices of <e> court 2011,judges judge,judges judge,True
+WebQTest-1479,who is <e> the golfer,profession,profession,True
+WebQTest-1480,who did <e> have a son with,children,children,True
+WebQTest-1481,what city is the <e> in,headquarters citytown,headquarters citytown,True
+WebQTest-1482,who played <e> in spy kids,starring actor,starring actor,True
+WebQTest-1483,what is the political system in <e>,form_of_government,form_of_government,True
+WebQTest-1484,what prompted <e> to write poetry,influenced_by,profession,False
+WebQTest-1485,what is the currency in <e> called,currency_used,currency_used,True
+WebQTest-1486,what school did <e> attend,education institution,education institution,True
+WebQTest-1487,where does <e> live 2012,places_lived location,places_lived location,True
+WebQTest-1488,what type of art does <e> do,associated_periods_or_movements,associated_periods_or_movements,True
+WebQTest-1489,what character did <e> play in star wars,film character,film character,True
+WebQTest-1490,what language is spoken in <e>,official_language,official_language,True
+WebQTest-1493,what school did <e> go to,education institution,education institution,True
+WebQTest-1494,who is <e> married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-1495,where does <e> fly,airports_served airport,airports_served cities_served,False
+WebQTest-1496,where does the city of <e> get its name,named_after,named_after,True
+WebQTest-1499,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-1500,where is <e> located,state,containedby,False
+WebQTest-1501,where is the <e> based,headquarters citytown,headquarters citytown,True
+WebQTest-1502,what city and state is <e> located in,headquarters citytown,headquarters citytown,True
+WebQTest-1503,where did <e> die,place_of_death,place_of_death,True
+WebQTest-1504,where was <e> born,place_of_birth,place_of_birth,True
+WebQTest-1506,where is the home stadium of the <e>,arena_stadium,arena_stadium,True
+WebQTest-1507,who was <e>,profession,profession,True
+WebQTest-1508,when did <e> go to college,education institution,education institution,True
+WebQTest-1510,what are <e> terriers,breed_of,higher_classification,False
+WebQTest-1513,what to do downtown <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1515,who is <e> parents,parents,parents,True
+WebQTest-1516,where did <e> go to school,education institution,education institution,True
+WebQTest-1518,what countries are involved in the <e>,members member,members member,True
+WebQTest-1519,what continent is <e> located,containedby,containedby,True
+WebQTest-1520,what language speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-1522,who does <e> play football for,teams team,teams team,True
+WebQTest-1523,when is the last time the <e> won a superbowl,championships,championships,True
+WebQTest-1524,who invented <e> religion,founding_figures,beliefs,False
+WebQTest-1525,who were we fighting in <e> war,combatants combatants,commanders military_commander,False
+WebQTest-1526,how many languages do they speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-1527,what political party does <e> represent,party party,party party,True
+WebQTest-1528,what movies does <e> play in,film film,film film,True
+WebQTest-1529,where did emperor <e> die,place_of_death,place_of_death,True
+WebQTest-1531,where is <e> located,containedby,containedby,True
+WebQTest-1533,what planet did <e> came from,place_of_birth,places_lived,False
+WebQTest-1534,who are the coaches for the <e>,current_head_coach,notable_for notable_object,False
+WebQTest-1535,where was the first <e> headquarters located,headquarters citytown,headquarters citytown,True
+WebQTest-1536,where did <e> go to college,education institution,education institution,True
+WebQTest-1537,what did <e> discover about the atomic structure,nobel_honor subject_area,cause_of_death,False
+WebQTest-1538,what books did <e> wrote,book_editions_published,works_written,False
+WebQTest-1539,who is <e> married to 2012,spouse_s spouse,spouse_s spouse,True
+WebQTest-1540,what is <e> 's wife 's name,spouse_s spouse,spouse_s spouse,True
+WebQTest-1541,what type of music did <e> play,genre,genre,True
+WebQTest-1542,what school does <e> go to,education institution,education institution,True
+WebQTest-1543,what is <e> well known for,profession,profession,True
+WebQTest-1544,who was president after <e>,office_holders office_holder,office_holders office_holder,True
+WebQTest-1546,where did <e> attend high school,education institution,education institution,True
+WebQTest-1547,what is the title of <e> 's new book,works_written,works_written,True
+WebQTest-1548,where did <e> die,place_of_death,place_of_death,True
+WebQTest-1550,what is the name of <e> wife,spouse_s spouse,spouse_s spouse,True
+WebQTest-1551,what year did <e> go to the super bowl,championships,championships,True
+WebQTest-1553,where does <e> live,places_lived location,places_lived location,True
+WebQTest-1554,what is the official language of <e> now,official_language,official_language,True
+WebQTest-1555,what is the parliament of <e> called,name,name,True
+WebQTest-1556,when 's the last time the <e> won the world series,championships,championships,True
+WebQTest-1557,where do <e> play,arena_stadium,arena_stadium,True
+WebQTest-1558,who is <e> married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-1559,what to do <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1560,who founded <e>,founders,founders,True
+WebQTest-1561,who created <e>,program_creator,regular_cast actor,False
+WebQTest-1562,what countries constitute the <e>,members member,members member,True
+WebQTest-1563,what are all the countries in <e>,contains,contains,True
+WebQTest-1564,what did <e> die of,cause_of_death,cause_of_death,True
+WebQTest-1565,where does <e> play,location,arena_stadium,False
+WebQTest-1566,what kind of guitar <e>,guitars_played,guitars_played,True
+WebQTest-1567,what cancer did <e>,cause_of_death,profession,False
+WebQTest-1568,what university did <e> graduated from,education institution,education institution,True
+WebQTest-1569,what <e> money called,currency_used,currency_used,True
+WebQTest-1570,where is the <e> stadium located,location,arena_stadium,False
+WebQTest-1571,what is <e> theory,original_ideas,profession,False
+WebQTest-1572,what should i do today in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1573,who influenced <e> art,influenced_by,influenced_by,True
+WebQTest-1574,what is my timezone in <e>,time_zones,time_zones,True
+WebQTest-1575,what products and\/or services does <e> offer customers,products consumer_product,industry,False
+WebQTest-1577,who did <e> play for last year,teams team,teams team,True
+WebQTest-1580,what type of democracy is the <e>,form_of_government,contains,False
+WebQTest-1582,what time in china <e>,time_zones,time_zones,True
+WebQTest-1583,what all movies has <e> been in,film film,film film,True
+WebQTest-1584,what disease did <e> die of,cause_of_death,cause_of_death,True
+WebQTest-1585,who plays <e>,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1586,who was <e> 's mother,parents,parents,True
+WebQTest-1587,who does <e> have a baby with,spouse_s spouse,spouse_s spouse,True
+WebQTest-1589,where is the <e> in winnipeg,containedby,containedby,True
+WebQTest-1590,what are the most popular religions in <e>,religions religion,religions religion,True
+WebQTest-1591,what was <e> 's former occupation,profession,profession,True
+WebQTest-1593,where is the <e> source,origin,containedby,False
+WebQTest-1595,what new movies is <e> in,film film,film film,True
+WebQTest-1596,what language do they use in <e>,official_language,languages_spoken,False
+WebQTest-1597,what kind of products does <e> sell,industry,board_members role,False
+WebQTest-1598,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-1599,where did <e> die,place_of_death,place_of_death,True
+WebQTest-1603,what is the <e> of daoism,texts,texts,True
+WebQTest-1604,what countries speak <e> natively,main_country,countries_spoken_in,False
+WebQTest-1607,who won <e> cup 2012,winners award_winner,winners award_winner,True
+WebQTest-1608,what language is mainly spoken in <e>,languages_spoken,languages_spoken,True
+WebQTest-1609,who played <e> on tv show,regular_cast actor,regular_cast actor,True
+WebQTest-1610,who was <e> vp,vice_president,profession,False
+WebQTest-1611,what is <e> currency,currency_used,currency_used,True
+WebQTest-1612,what type of art did <e> create,art_forms,associated_periods_or_movements,False
+WebQTest-1613,what language do they speak in <e>,official_language,languages_spoken,False
+WebQTest-1614,what religion was <e>,religion,religion,True
+WebQTest-1615,what football team does <e> play for,teams team,teams team,True
+WebQTest-1616,what did <e> die from,cause_of_death,cause_of_death,True
+WebQTest-1617,what did <e> discover,original_ideas,original_ideas,True
+WebQTest-1618,what teams has <e> played for,teams team,teams team,True
+WebQTest-1619,where do the <e> run,containedby,containedby,True
+WebQTest-1620,when was president <e> in office,government_positions_held from,government_positions_held from,True
+WebQTest-1621,what political party is <e>,party party,party party,True
+WebQTest-1622,what ocean is around <e>,body_of_water,tourist_attractions,False
+WebQTest-1623,what is the most common language spoken in <e>,official_language,official_language,True
+WebQTest-1624,what language <e>,languages_spoken,official_language,False
+WebQTest-1625,what are some inventions that <e> invented,inventions,inventions,True
+WebQTest-1626,who wrote <e>,created_by,created_by,True
+WebQTest-1627,what are <e> coins called,currency_used,contains,False
+WebQTest-1628,what type government does <e> have,form_of_government,form_of_government,True
+WebQTest-1629,what currency does <e> take,currency_used,currency_used,True
+WebQTest-1630,what inspired <e> to become a singer,influenced_by,influenced_by,True
+WebQTest-1631,who is the <e> state senator,representatives office_holder,representatives office_holder,True
+WebQTest-1632,what to visit in <e> city,tourist_attractions,tourist_attractions,True
+WebQTest-1633,what genre of art is the mona <e>,art_genre,locations,False
+WebQTest-1634,who does <e> voice,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-1635,when did <e> got drafted,career_start,career_start,True
+WebQTest-1637,what are the <e> holy days,holidays,texts,False
+WebQTest-1638,what language is most commonly spoken in <e>,official_language,official_language,True
+WebQTest-1639,where did <e> die,place_of_death,place_of_death,True
+WebQTest-1640,where is <e> on a map,containedby,containedby,True
+WebQTest-1641,who is <e> married too,spouse_s spouse,spouse_s spouse,True
+WebQTest-1643,who does the voice for <e> in child 's play,starring actor,starring actor,True
+WebQTest-1644,what did <e> fight for,area_of_activism,area_of_activism,True
+WebQTest-1646,what year did the <e> begin,founded,founded,True
+WebQTest-1648,what language does <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1649,what was <e> real name,official_name,official_name,True
+WebQTest-1650,what did <e> founded,organizations_founded,area_of_activism,False
+WebQTest-1652,what language they speak in <e>,official_language,languages_spoken,False
+WebQTest-1653,what boarding school did <e> go to,education institution,education institution,True
+WebQTest-1654,what are <e>,type_of_dish1,cuisine,False
+WebQTest-1655,where are <e> 's children,children,children,True
+WebQTest-1656,what are some of <e> most famous inventions,inventions,inventions,True
+WebQTest-1657,when did <e> come into the nba,drafted draft,awards season,False
+WebQTest-1658,where do they speak <e>,countries_spoken_in,countries_spoken_in,True
+WebQTest-1659,what is the zip code for <e>,postal_codes,postal_codes,True
+WebQTest-1661,who was the voice of <e> in the original star wars movie,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1662,where is english spoken around the <e>,countries_spoken_in,countries_spoken_in,True
+WebQTest-1663,what music did <e> play,genre,genre,True
+WebQTest-1664,what form of currency does <e> use,currency_used,currency_used,True
+WebQTest-1665,where is the <e> language from,language_family,language_family,True
+WebQTest-1666,what are the top tourist attractions in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1667,who were the children of <e>,children,children,True
+WebQTest-1668,what did <e> die from,cause_of_death,cause_of_death,True
+WebQTest-1669,where is <e> located,containedby,containedby,True
+WebQTest-1670,who is <e> parents,parents,parents,True
+WebQTest-1672,what language do the <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1673,what political party was <e> in,party party,party party,True
+WebQTest-1674,who is the leader of <e> today,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1675,where do the <e> run through,partially_containedby,containedby,False
+WebQTest-1676,what money does <e> use,currency_used,currency_used,True
+WebQTest-1677,where was <e> born,place_of_birth,place_of_birth,True
+WebQTest-1678,what country did the battle of <e> hill take place,locations,locations,True
+WebQTest-1679,what kind of government does the <e> have currently,form_of_government,form_of_government,True
+WebQTest-1680,when was the last time the <e> won the world series,championships,championships,True
+WebQTest-1682,who did <e> date,dated participant,dated participant,True
+WebQTest-1683,what is the most common language in <e>,official_language,official_language,True
+WebQTest-1684,what influenced <e> to start writing,influenced_by,influenced_by,True
+WebQTest-1685,where did <e> went to school,education institution,education institution,True
+WebQTest-1686,who is the governor of <e> 2009,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1687,what movies has <e> made,film,film film,False
+WebQTest-1688,what did <e> died of,cause_of_death,cause_of_death,True
+WebQTest-1690,where is <e> based,headquarters citytown,headquarters citytown,True
+WebQTest-1691,what is <e> timezone,time_zones,time_zones,True
+WebQTest-1694,what was <e> 's wife called,spouse_s spouse,spouse_s spouse,True
+WebQTest-1695,when did <e> become president,government_positions_held from,government_positions_held from,True
+WebQTest-1696,what did <e> do,profession,profession,True
+WebQTest-1698,where do <e> cats originate from,place_of_origin,breed_of,False
+WebQTest-1699,who played <e>,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1700,where is <e> located,containedby,containedby,True
+WebQTest-1701,what county is <e> in,containedby,containedby,True
+WebQTest-1702,who was <e> son,children,children,True
+WebQTest-1705,where was <e> from,origin,member,False
+WebQTest-1706,what was <e> most famous for,dishonor_bestowed,notable_types,False
+WebQTest-1707,who plays <e> on smallville,regular_cast actor,regular_cast actor,True
+WebQTest-1708,what are <e> colors,colors,colors,True
+WebQTest-1710,what is the currency of the <e>,currency_used,currency_used,True
+WebQTest-1711,when was the last time the <e> won a playoff series,championships,championships,True
+WebQTest-1712,where did <e> go to school,education institution,education institution,True
+WebQTest-1713,what disease did <e> had,condition,condition,True
+WebQTest-1714,who is <e> coach,coaches coach,coach,False
+WebQTest-1715,where did <e> wrote,places_lived location,works_written,False
+WebQTest-1719,who was married to <e>,spouse_s spouse,spouse_s spouse,True
+WebQTest-1721,what language does <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1723,where is english spoken in the <e> map,countries_spoken_in,countries_spoken_in,True
+WebQTest-1724,when did <e> won the league,awards season,awards season,True
+WebQTest-1725,what timezone is <e> in right now,time_zones,time_zones,True
+WebQTest-1726,where is <e>,containedby,containedby,True
+WebQTest-1727,what countries speak <e> as a first language,countries_spoken_in,countries_spoken_in,True
+WebQTest-1728,who was <e> and what did he do,profession,profession,True
+WebQTest-1729,what was the name of <e> first wife,spouse_s spouse,spouse_s spouse,True
+WebQTest-1730,where does the <e> flow,containedby,containedby,True
+WebQTest-1731,what is <e> 's first name,name,name,True
+WebQTest-1732,where did <e> get his education,education institution,education institution,True
+WebQTest-1733,who or what influenced <e>,influenced_by,influenced_by,True
+WebQTest-1734,what year did <e> win their first championship,championships,championships,True
+WebQTest-1735,where do most of the people live in <e>,contains,contains,True
+WebQTest-1736,where is <e> located,containedby,containedby,True
+WebQTest-1737,what movies has <e> played in,film film,film film,True
+WebQTest-1738,who plays <e> on the young and the restless,regular_cast actor,regular_cast actor,True
+WebQTest-1739,who is the voice of <e> on south park,regular_cast actor,regular_cast actor,True
+WebQTest-1740,who is <e> brother,sibling_s sibling,sibling_s sibling,True
+WebQTest-1741,where is the headquarters of <e>,headquarters citytown,headquarters citytown,True
+WebQTest-1742,what type of government <e> have,form_of_government,form_of_government,True
+WebQTest-1744,what team does <e> play for,teams team,teams team,True
+WebQTest-1746,where is <e> country,continent,containedby,False
+WebQTest-1748,through which countries of the sahel does the <e> flow,partially_containedby,basin_countries,False
+WebQTest-1750,what city does <e> live in,places_lived location,places_lived location,True
+WebQTest-1751,what city is <e> in,headquarters citytown,headquarters citytown,True
+WebQTest-1752,what did f. scott fitzgerald do,profession,profession,True
+WebQTest-1753,what countries does tomtom <e> include,phone_number service_location,industry,False
+WebQTest-1754,what is the national language of <e>,official_language,official_language,True
+WebQTest-1755,where did the second battle of <e> occur,locations,locations,True
+WebQTest-1756,what languages do people speak in <e>,official_language,languages_spoken,False
+WebQTest-1757,what did <e> do,position_s,profession,False
+WebQTest-1758,where do they speak <e>,main_country,countries_spoken_in,False
+WebQTest-1759,what 3 states border <e>,adjoin_s adjoins,adjoin_s adjoins,True
+WebQTest-1760,who plays <e> on ncis,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-1761,who ruled after <e> died,children,children,True
+WebQTest-1763,who are the <e> coaches,current_coaches baseball_coach,notable_for notable_object,False
+WebQTest-1764,where is <e>,places_lived location,place_of_birth,False
+WebQTest-1765,what region is <e> considered,continent,partially_containedby,False
+WebQTest-1766,what language do <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1767,where was <e> buried,place_of_burial,place_of_burial,True
+WebQTest-1768,what are the official languages of <e>,official_language,official_language,True
+WebQTest-1769,where is the city <e>,containedby,containedby,True
+WebQTest-1770,what country does <e> play for,nationality,country,False
+WebQTest-1771,what is the <e> belief,beliefs,texts,False
+WebQTest-1772,who is the prime minister of <e> 2011,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1773,who was the son of <e>,children,children,True
+WebQTest-1774,who was <e> married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-1775,how many languages do they speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-1776,where are the <e> located,containedby,containedby,True
+WebQTest-1777,what is <e> mum called,parents,profession,False
+WebQTest-1779,when did <e> take office,government_positions_held from,government_positions_held from,True
+WebQTest-1780,who does <e> play for in 2010,teams team,teams team,True
+WebQTest-1781,who or what influenced <e>,influenced_by,influenced_by,True
+WebQTest-1782,where does <e> export to,places_exported_to exported_to,places_exported_to exported_to,True
+WebQTest-1784,where is the seat of the <e>,headquarters citytown,headquarters citytown,True
+WebQTest-1785,what was <e> in,film film,film film,True
+WebQTest-1788,what artistic style did <e> work in,associated_periods_or_movements,profession,False
+WebQTest-1789,what is <e> indicted for,acquittal crime_type,profession,False
+WebQTest-1790,where was <e> killed,place_of_death,place_of_death,True
+WebQTest-1791,when was the printing press invented by <e>,date_of_invention,date_of_invention,True
+WebQTest-1792,where is midlothian <e>,containedby,containedby,True
+WebQTest-1793,where does <e> play soccer,teams team,teams team,True
+WebQTest-1794,where is <e> 's family from,place_of_birth,place_of_birth,True
+WebQTest-1795,what are <e> 's children called,children,children,True
+WebQTest-1796,what city was <e> born in,place_of_birth,place_of_birth,True
+WebQTest-1797,who fought in the battle of <e>,entity_involved,commanders,False
+WebQTest-1799,what kind of writing is <e> famous for,profession,profession,True
+WebQTest-1800,what year was first <e>,instances,instances,True
+WebQTest-1801,who plays <e>,starring actor,starring actor,True
+WebQTest-1802,where are the timezones in the <e>,time_zones,containedby,False
+WebQTest-1803,what does <e> make,industry,brands brand,False
+WebQTest-1804,what do people speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-1805,what do people in <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1806,what position did <e> play,position_s,position_s,True
+WebQTest-1807,what was <e> 's first team,teams team,teams team,True
+WebQTest-1808,who is the president of <e> now,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-1809,what kind of guitar did <e> play,guitars_played,guitars_played,True
+WebQTest-1810,what type of art <e> do,art_forms,art_forms,True
+WebQTest-1811,who are the senators of <e> now,representatives office_holder,representatives office_holder,True
+WebQTest-1812,where was <e> raised,place_of_birth,place_of_birth,True
+WebQTest-1813,what team does <e> play for 2011,teams team,teams team,True
+WebQTest-1815,where does <e> go to school,education institution,education institution,True
+WebQTest-1817,where did <e> go to school,education institution,education institution,True
+WebQTest-1818,what state is <e> in,headquarters state_province_region,headquarters state_province_region,True
+WebQTest-1819,what religion does <e> follow,religions religion,religions religion,True
+WebQTest-1821,which countries have <e> as their main language,countries_spoken_in,countries_spoken_in,True
+WebQTest-1823,what government does <e> use,form_of_government,form_of_government,True
+WebQTest-1824,what type of currency do they use in <e>,currency_used,currency_used,True
+WebQTest-1825,what did <e> wrote,works_written,works_written,True
+WebQTest-1826,what schools did <e> attend,education institution,education institution,True
+WebQTest-1827,what can do in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1828,what currency does <e> accept,currency_used,currency_used,True
+WebQTest-1829,what type of religion did <e> have,religions religion,religions religion,True
+WebQTest-1830,what language do they speak in colombia <e>,official_language,languages_spoken,False
+WebQTest-1833,what kind of government does <e> has,form_of_government,form_of_government,True
+WebQTest-1835,what country did <e> live in,places_lived location,places_lived location,True
+WebQTest-1836,where <e> lived,places_lived location,place_of_birth,False
+WebQTest-1838,what sports are popular in <e>,teams,teams,True
+WebQTest-1839,what 's my timezone in <e>,time_zones,time_zones,True
+WebQTest-1840,what do they speak in <e>,official_language,languages_spoken,False
+WebQTest-1842,what currency does <e> use,currency_used,currency_used,True
+WebQTest-1843,what did the <e> indians speak,languages_spoken,languages_spoken,True
+WebQTest-1844,who plays <e> in prince of thieves,starring actor,starring actor,True
+WebQTest-1845,what standard time is <e>,time_zones,time_zones,True
+WebQTest-1847,where does <e> people live,geographic_distribution,geographic_distribution,True
+WebQTest-1848,what instrument does <e>,instruments_played,track_contributions role,False
+WebQTest-1849,who does <e> play in camp rock,film character,film character,True
+WebQTest-1850,what religion does <e> practice,religion,religion,True
+WebQTest-1851,what countries are located near <e>,adjoin_s adjoins,administrative_children,False
+WebQTest-1853,what made <e> famous,profession,profession,True
+WebQTest-1854,who originally voiced <e>,portrayed_in_films actor,appeared_in_tv_program actor,False
+WebQTest-1855,what airport do you fly into in <e>,how_to_get_here transport_terminus,how_to_get_here transport_terminus,True
+WebQTest-1857,what <e> new album called 2012,album,film film,False
+WebQTest-1858,where does <e> live,places_lived location,places_lived location,True
+WebQTest-1860,what discovery did <e> make,astronomical_objects_discovered,influenced_by,False
+WebQTest-1861,what is the government system of <e>,form_of_government,form_of_government,True
+WebQTest-1864,who plays the role of <e> on ncis,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-1865,what did <e> do for living,profession,profession,True
+WebQTest-1866,what is the state name of <e>,state,state,True
+WebQTest-1868,who plays <e> overstreet,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1870,what movies did <e> play in,film film,film film,True
+WebQTest-1871,what is the <e> cup named after,named_after,named_after,True
+WebQTest-1873,where is traditional <e> used,main_country,main_country,True
+WebQTest-1875,what type of political system is <e>,form_of_government,form_of_government,True
+WebQTest-1876,what language did the ancient <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1877,what kind of painter was <e>,associated_periods_or_movements,art_forms,False
+WebQTest-1878,what form of government does the <e> use,form_of_government,form_of_government,True
+WebQTest-1879,what money does <e> use,currency_used,currency_used,True
+WebQTest-1880,who is my representative in <e> house,members office_holder,members office_holder,True
+WebQTest-1881,what timezone is <e> gmt,time_zones,time_zones,True
+WebQTest-1883,where did <e> go to jail,imprisoned prison,imprisoned prison,True
+WebQTest-1884,what degrees did <e> get,education degree,profession,False
+WebQTest-1885,what does <e> shiva represent,deity_of,deity_of,True
+WebQTest-1886,what inventions were made by <e>,inventions,inventions,True
+WebQTest-1887,what is the name of the currency used in <e>,currency_used,currency_used,True
+WebQTest-1889,who was vice president with <e>,vice_president,vice_president,True
+WebQTest-1890,what songs did <e> compose,compositions,compositions,True
+WebQTest-1891,where did the russian <e> war happen,locations,locations,True
+WebQTest-1892,what year did the <e> win the cup,championships,championships,True
+WebQTest-1893,what kind of money does <e> have,currency_used,currency_used,True
+WebQTest-1894,what baseball team was <e> on,teams team,teams team,True
+WebQTest-1895,what body of water does <e> flow into,mouth,mouth,True
+WebQTest-1896,what form of government does the <e> have,form_of_government,form_of_government,True
+WebQTest-1897,what are the names of <e> 's six sisters,siblings siblings,children,False
+WebQTest-1898,what voices does seth macfarlane play on <e>,regular_cast character,regular_cast character,True
+WebQTest-1899,who was <e> married to,spouse_s spouse,spouse_s spouse,True
+WebQTest-1900,who played <e> in the first movie,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1901,where did <e> go to college,education institution,education institution,True
+WebQTest-1902,what year was <e> was born,date_of_birth,date_of_birth,True
+WebQTest-1904,what 's there to see in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1905,where was <e> located,containedby,containedby,True
+WebQTest-1907,what kind of currency does <e> use,currency_used,currency_used,True
+WebQTest-1909,what is spoken in <e>,languages_spoken,languages_spoken,True
+WebQTest-1910,where was <e> born at,place_of_birth,place_of_birth,True
+WebQTest-1911,where did <e> go to college,education institution,education institution,True
+WebQTest-1912,what did <e> died of,cause_of_death,cause_of_death,True
+WebQTest-1913,where did <e> go to school,education institution,education institution,True
+WebQTest-1914,what year was <e> mvp,awards season,awards season,True
+WebQTest-1915,where did <e> go to school,education institution,education institution,True
+WebQTest-1916,what county is <e> in,county,county,True
+WebQTest-1917,what did <e> discover,inventions,inventions,True
+WebQTest-1919,who plays king julian <e>,starring actor,starring actor,True
+WebQTest-1920,who is <e>,profession,profession,True
+WebQTest-1921,where did the <e> war take place,locations,locations,True
+WebQTest-1922,what offices did <e> hold,government_positions_held basic_title,government_positions_held office_position_or_title,False
+WebQTest-1923,what movies has <e> been in,film film,film film,True
+WebQTest-1925,who did <e> play in milk,starring character,starring character,True
+WebQTest-1926,when did the <e> conflict start,start_date,start_date,True
+WebQTest-1928,what wnba team is <e> on,teams team,teams team,True
+WebQTest-1929,what do see in <e>,tourist_attractions,tourist_attractions,True
+WebQTest-1932,who made the laws in <e>,governing_officials governmental_body,governing_officials office_holder,False
+WebQTest-1933,what year did <e> get drafted,drafted draft,drafted draft,True
+WebQTest-1934,where <e> from,origin,place_of_birth,False
+WebQTest-1935,what college did <e> go to,education institution,education institution,True
+WebQTest-1936,when was the last time the <e> won a championship,championships,championships,True
+WebQTest-1937,who is <e> facts,profession,profession,True
+WebQTest-1938,where did <e> get married,spouse_s location_of_ceremony,spouse_s spouse,False
+WebQTest-1939,what form of government does <e>,form_of_government,form_of_government,True
+WebQTest-1940,who do <e> people follow,deities,deities,True
+WebQTest-1941,what kind of government does <e>,form_of_government,form_of_government,True
+WebQTest-1942,who was in the <e> palestinian conflict,people_involved,combatants combatants,False
+WebQTest-1943,who founded the <e>,founders,founders,True
+WebQTest-1944,where did <e> die,place_of_death,place_of_death,True
+WebQTest-1946,what is the country code for <e>,internet_tld,adjoin_s adjoins,False
+WebQTest-1947,what currency do they use in <e>,currency_used,currency_used,True
+WebQTest-1950,where is <e> buried,place_of_burial,place_of_burial,True
+WebQTest-1952,where was the prophet <e> from,place_of_birth,place_of_birth,True
+WebQTest-1954,what language do <e> people speak,languages_spoken,languages_spoken,True
+WebQTest-1955,who are the judges appointed in <e> court,judges judge,judges judge,True
+WebQTest-1957,when did <e> join charmed,starring_roles from,starring_roles from,True
+WebQTest-1958,where is <e> from,place_of_birth,place_of_birth,True
+WebQTest-1960,when was the last time the <e> win the stanley cup,championships,championships,True
+WebQTest-1961,what kind of language do <e> speak,official_language,languages_spoken,False
+WebQTest-1962,what language do <e> use,languages_spoken,official_language,False
+WebQTest-1963,what position did <e> play,position_s,position_s,True
+WebQTest-1964,who played <e> in a streetcar named desire movie,starring actor,starring actor,True
+WebQTest-1966,what book did <e> wrote in 1859,works_written,works_written,True
+WebQTest-1967,what language do <e> speak,languages_spoken,languages_spoken,True
+WebQTest-1968,what was the cause of death for <e>,cause_of_death,cause_of_death,True
+WebQTest-1969,what team is <e> play for,teams team,teams team,True
+WebQTest-1971,what movies <e> has been in,film film,film film,True
+WebQTest-1972,where did <e> live,places_lived location,places_lived location,True
+WebQTest-1975,what was the last movie <e> was in,film film,film film,True
+WebQTest-1976,what team did <e> play for,teams team,teams team,True
+WebQTest-1977,where did <e> go to college,education institution,education institution,True
+WebQTest-1978,where does <e> come from,place_of_birth,place_of_birth,True
+WebQTest-1979,who is number 22 on <e>,roster player,sport,False
+WebQTest-1981,what state did <e> live in,places_lived location,places_lived location,True
+WebQTest-1982,what type of music did <e> compose,genre,genre,True
+WebQTest-1985,what team does <e> play for,teams team,teams team,True
+WebQTest-1986,what films has <e> been in,film film,film film,True
+WebQTest-1987,what materials did <e> use in his work,artworks,profession,False
+WebQTest-1988,what did <e> study in college,education major_field_of_study,education major_field_of_study,True
+WebQTest-1990,who plays timon 's voice in <e>,starring actor,starring actor,True
+WebQTest-1991,what part of the country is <e> in,containedby,country,False
+WebQTest-1992,which island is <e> on,containedby,county,False
+WebQTest-1993,what language do speak in <e>,languages_spoken,languages_spoken,True
+WebQTest-1994,what did <e> won a grammy for,awards_won award,condition,False
+WebQTest-1996,who played maggie in <e>,portrayed_in_films actor,portrayed_in_films actor,True
+WebQTest-1997,who does <e> play for,games team,teams team,False
+WebQTest-1998,what party was <e> affiliated with,party party,party party,True
+WebQTest-1999,what religions are popular in <e>,religions religion,religions religion,True
+WebQTest-2000,who played berger in <e>,regular_cast actor,regular_cast actor,True
+WebQTest-2001,who won the 2000 <e> final,winners award_winner,winners award_winner,True
+WebQTest-2002,what are the names of <e> 's kids,children,children,True
+WebQTest-2003,what movies have <e> in them,film film,film film,True
+WebQTest-2004,what the time zone in <e>,time_zones,time_zones,True
+WebQTest-2005,who plays <e> in scrubs,appeared_in_tv_program actor,appeared_in_tv_program actor,True
+WebQTest-2006,what race is <e>,ethnicity,instruments_played,False
+WebQTest-2007,what do people in <e> speak,languages_spoken,languages_spoken,True
+WebQTest-2008,which countries speak <e> language,countries_spoken_in,countries_spoken_in,True
+WebQTest-2009,where does <e> work,employment_history company,employment_history company,True
+WebQTest-2010,what degrees does <e> have,education degree,profession,False
+WebQTest-2011,where is <e> buried,place_of_burial,place_of_burial,True
+WebQTest-2012,what is london <e> time zone,time_zones,time_zones,True
+WebQTest-2013,where to stay in <e> tourist,accommodation,accommodation,True
+WebQTest-2014,what type of breast cancer did <e> have,condition,condition,True
+WebQTest-2015,what type of government does <e> have today,form_of_government,form_of_government,True
+WebQTest-2016,where does <e> come from,place_of_birth,place_of_birth,True
+WebQTest-2017,what party was <e> part of,party party,party party,True
+WebQTest-2018,what did <e> do for a living,profession,profession,True
+WebQTest-2019,who did <e> marry,spouse_s spouse,spouse_s spouse,True
+WebQTest-2020,what are the mountains in <e> called,name,contains,False
+WebQTest-2021,what influenced <e> to start writing,influenced_by,influenced_by,True
+WebQTest-2022,where is <e> ethnicity,ethnicity,place_of_birth,False
+WebQTest-2023,where are the <e> headquarters located,headquarters citytown,headquarters citytown,True
+WebQTest-2024,<e> state was the battle of antietam fought,locations,locations,True
+WebQTest-2025,which ocean does the <e> flow into,mouth,mouth,True
+WebQTest-2027,what team did <e> play for before la galaxy,teams team,teams team,True
+WebQTest-2028,who is the current leader of <e> 2010,governing_officials office_holder,governing_officials office_holder,True
+WebQTest-2029,where was the <e> located,containedby,containedby,True
+WebQTest-2030,where is <e> area 51,containedby,containedby,True
+WebQTest-2031,when was <e> born,place_of_birth,place_of_birth,True

@@ -2,7 +2,7 @@
 import os
 
 # Model label
-DETECTION_MODEL = 'gru_smart'
+DETECTION_MODEL = 'gru_l2_smart'
 # Path of the training data.
 TRAIN_PATH = os.path.abspath(os.path.join(os.path.curdir, 'data', 'train.data'))
 # Path of the test data.
@@ -31,9 +31,9 @@ MAX_QUESTION_LENGTH = 20
 MAX_RELATION_LEVEL_LENGTH = 2
 MAX_WORD_LEVEL_LENGTH = 15
 
-TRAIN_BATCH_SIZE = 2048
-DEV_BATCH_SIZE = 2048
-TEST_BATCH_SIZE = 2048
+TRAIN_BATCH_SIZE = 512
+DEV_BATCH_SIZE = 512
+TEST_BATCH_SIZE = 512
 
 DEV_EVERY = 50
 DEV_START_STEP = 0
