@@ -6,7 +6,6 @@ from model import Model
 from data_helpers import prepare_sequence
 from data_helpers import load_data
 from data_helpers import load_vocab
-from data_helpers import create_word2id
 from data_helpers import batch_iter
 import numpy as np
 import datetime

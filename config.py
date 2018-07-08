@@ -2,7 +2,7 @@
 import os
 
 # Model label
-DETECTION_MODEL = 'gru_l2_smart'
+DETECTION_MODEL = 'gru_smart'
 # Path of the training data.
 TRAIN_PATH = os.path.abspath(os.path.join(os.path.curdir, 'data', 'train.data'))
 # Path of the test data.
@@ -20,18 +20,20 @@ QUESTION_HIDDEN_DIM = 200
 RELATION_HIDDEN_DIM = 200
 
 # Number of the training epochs.
-EPOCH_NUM = 10
+EPOCH_NUM = 200
 # Learning rate.
 LEARNING_RATE = 0.0001
 # The mini value that positive score bigger than negative.
-MARGIN = 0.5
+MARGIN = 0.3
 
 
 MAX_QUESTION_LENGTH = 20
+MAX_QUESTION_CHAR_LEVEL_LENGTH = 100
 MAX_RELATION_LEVEL_LENGTH = 2
 MAX_WORD_LEVEL_LENGTH = 15
+MAX_CHAR_LEVEL_LENGTH = 100
 
-TRAIN_BATCH_SIZE = 512
+TRAIN_BATCH_SIZE = 128
 DEV_BATCH_SIZE = 512
 TEST_BATCH_SIZE = 512
 
